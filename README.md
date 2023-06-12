@@ -4,7 +4,7 @@ Cours donné en 3e année du BUT Information numérique dans les organisations (
 
 ## Objectifs pédagogiques 
 
-Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développer des compétences liées aux pratiques collaboratives et au partage de connaissances dans les organisations riches en information. Une fois convaincus de l'intérêt de faire circuler les connaissances, les étudiantes et étudiants apprendront à créer des documents programmables et reproductibles avec Obsidian et Notion. Enfin, la prise en main de l'outil Airtable permettra de dépasser le paradigme de l'information textuelle pour aller vers une information structurée, source de vérité pour l'organisation.
+Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développer des compétences liées aux pratiques collaboratives et au partage de connaissances dans les organisations riches en information. Une fois convaincus de l'intérêt de faire circuler les connaissances, les étudiantes et étudiants apprendront à créer des documents programmables et reproductibles avec Obsidian et Notion. Enfin, la prise en main de l'outil Airtable permettra de dépasser le paradigme de l'information textuelle pour aller vers une information structurée, source de vérité pour de nombreuses réutilisations au sein (et en dehors) de l'organisation.
 
 ## Syllabus 
 
