@@ -18,7 +18,7 @@ Prise de notes programmables et reproductibles avec Obsidian. Savoir formater se
 
 ### Mercredi 15 novembre : 13h30-17H30
 
-Aller plus loin dans les notes programmables et reproductibles avec Notion, qui apporte une dimension collaborative.
+Aller plus loin dans les notes programmables et reproductibles avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
 ### Mercredi 6 décembre: 13h30-17H30
 
