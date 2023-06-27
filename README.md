@@ -22,13 +22,13 @@ Prise de notes programmables et reproductibles avec Obsidian. Savoir formater se
 
 ### Session n° 3
 
-**Mercredi 15 novembre : 13h30-17H30**
+**Mardi 7 novembre : 13h30-17H30**
 
 Aller plus loin dans les notes programmables et reproductibles avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
 ### Session n° 4
 
-**Mercredi 6 décembre: 13h30-17H30**
+**Mercredi 13 décembre: 8h30-12H30**
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple de données nativement tabulaires.
 
