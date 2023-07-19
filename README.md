@@ -34,6 +34,6 @@ Structurer ses données sous forme tabulaire avec Airtable : exemple de données
 
 ### Session n° 5
 
-**Mercredi 13 décembre: 13h30-17H30**
+**Mercredi 15 décembre: 13h30-17H30**
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple d'informations textuelles.
