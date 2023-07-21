@@ -10,19 +10,19 @@ Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développ
 
 ### Session n° 1
 
-**Mercredi 11 octobre : 13h30-17H30**
+**Mercredi 18 octobre : 13h30-17h30**
 
 Intérêt de décloisonner l'information dans les organisations. S'inspirer des méthodes de "corporate hacking". Retour d'expérience : outil Basecamp.
 
 ### Session n° 2
 
-**Mercredi 18 octobre : 13h30-17h30**
+**Mardi 7 novembre : 13h30-17H30**
 
 Prise de notes programmables et reproductibles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
 ### Session n° 3
 
-**Mardi 7 novembre : 13h30-17H30**
+**Mercredi 6 décembre: 13h30-17H30**
 
 Aller plus loin dans les notes programmables et reproductibles avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
