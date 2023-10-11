@@ -32,6 +32,8 @@ Aller plus loin dans les notes programmables et reproductibles avec Notion, qui 
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple de données nativement tabulaires.
 
+Contrôle des connaissances
+
 ### Session n° 5
 
 **Mercredi 15 décembre: 13h30-17H30**
