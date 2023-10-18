@@ -14,6 +14,8 @@ Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développ
 
 Intérêt de décloisonner l'information dans les organisations. S'inspirer des méthodes de "corporate hacking". Retour d'expérience : outil Basecamp.
 
+--> [support de présentation]([url](/pratiques-collaboratives-partage-connaissances/blob/main/De%CC%81cloisonner-information-corporate-hacking-Basecamp.html))
+
 ### Session n° 2
 
 **Mardi 7 novembre : 13h30-17H30**
