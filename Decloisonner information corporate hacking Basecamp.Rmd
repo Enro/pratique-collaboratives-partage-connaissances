@@ -195,9 +195,9 @@ class: clear
 
 <br />
 
-[![hacke la formation]({{site.url}}{{site.baseurl}}/img/1_2rFm12Uc6_eYF0UHclpgHQ.jpg)](https://medium.com/corporate-hacking/hack-du-jour-11-hacke-la-formation-11672389e149)
+[![hacke la formation](img/1_2rFm12Uc6_eYF0UHclpgHQ.jpg)](https://medium.com/corporate-hacking/hack-du-jour-11-hacke-la-formation-11672389e149)
 
-[![hacke la comm' interne]({{site.url}}{{site.baseurl}}/img/1_YDqMB2BhNn0PZkKx7qSndg.jpg)](https://medium.com/corporate-hacking/hack-du-jour-13-hacke-la-comm-interne-b5e41f4885eb)
+[![hacke la comm' interne](img/1_YDqMB2BhNn0PZkKx7qSndg.jpg)](https://medium.com/corporate-hacking/hack-du-jour-13-hacke-la-comm-interne-b5e41f4885eb)
 
 ???
 
