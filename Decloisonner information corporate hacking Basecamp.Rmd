@@ -432,7 +432,7 @@ class: clear
 
 ## Communiquer sur l'avancement des groupes de tâches avec le "hill chart"
 
-<img src="https://basecamp.com/assets/new/landing/hill-charts/enabling-hill-charts-7f7b7e5658ea23e4cb44c21e5c445b4a1c83f7c7fa9a39911fb209c74e21f21a.gif" />
+<img src="https://basecamp.com/assets/hill-charts/enabling-hill-charts-7f7b7e5658ea23e4cb44c21e5c445b4a1c83f7c7fa9a39911fb209c74e21f21a.gif" />
 
 ---
 class: clear
