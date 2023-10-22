@@ -20,13 +20,13 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 **Mardi 7 novembre : 13h30-17H30**
 
-Prise de notes programmables et reproductibles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
+Prise de notes programmables et gestion des connaissances personnelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
 ### Session n° 3
 
 **Mercredi 6 décembre: 13h30-17H30**
 
-Aller plus loin dans les notes programmables et reproductibles avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
+Aller plus loin dans les notes programmables avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
 ### Session n° 4
 
