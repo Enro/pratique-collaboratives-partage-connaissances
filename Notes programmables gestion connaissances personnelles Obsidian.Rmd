@@ -1,0 +1,197 @@
+---
+title: Gestion du travail et des connaissances individuelles avec Obsidian
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances
+author: "Antoine Blanchard"
+date: "Novembre 2023"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      ratio: "4:3"
+    anchor_sections: false
+
+---
+class: inverse, mline, center, middle
+
+# Pourquoi gérer ses connaissances individuelles ?
+
+---
+class: clear
+
+## Pourquoi gérer ses connaissances individuelles ?
+<br />
+<br />
+* À défaut de disposer d'un outil collaboratif de partage de connaissances (ex. Basecamp)
+
+--
+* Pour aller plus loin que le papier (*un cahier ne permet pas de gérer ses connaissances*)
+
+--
+* Pour savoir toujours où collecter un nouvelle information
+
+--
+* Pour engranger et faire évoluer ses connaissances tout au long de sa vie
+
+--
+* Vous êtes des travailleurs de la connaissance (*knowledge workers*) !
+
+???
+
+Pourquoi pas un cahier ? Il permet simplement une prise de notes linéaire.
+
+---
+class: clear
+
+## Définition
+<br />
+<br />
+.center.font150[La gestion des connaissances individuelles, ou *personal knowledge management*, est le processus de collecte de l'information utile à une personne qui permet de gérer, comprendre et appliquer efficacement ces connaissances.]
+
+---
+class: inverse, mline, center, middle
+
+# Comment gérer ses connaissances individuelles ?
+
+---
+class: clear
+
+## Quel logiciel utilisez-vous pour prendre des notes, organiser vos connaissances… ?
+
+```{r xaringanExtra-scribble, echo=FALSE}
+xaringanExtra::use_scribble()
+```
+
+<br />
+<br />
+* .can-edit[      ]
+* .can-edit[      ]
+* .can-edit[      ]
+* .can-edit[      ]
+* .can-edit[      ]
+* .can-edit[      ]
+
+???
+
+MS OneNote, Google Docs, Notepad, Evernote...
+
+Quels avantages et inconvénients ?
+
+---
+class: clear
+
+## Avec vos outils actuels de prises de note, pouvez-vous…
+
+<br />
+<br />
+* retrouver facilement les notes qui portent sur un thème donné ? .can-edit[      ]
+* respecter un gabarit prédéfini ? .can-edit[      ]
+* mettre en forme le texte (gras, italique…) ? .can-edit[      ]
+* créer un logigramme, un tableau, une formule mathématique… ? .can-edit[      ]
+
+---
+class: clear
+
+## L'outil idéal
+Des notes :
+- granulaires
+- reliées et formant un graphe
+- possédant des métadonnées
+- requêtables
+<br />
+
+--
+
+Des métadonnées :
+- personnalisables 
+- cherchables 
+- requêtables
+<br />
+
+--
+
+Des informations :
+- requêtables
+- actionables (ex. tâche)
+
+???
+
+Ex. une note par définition (avec des illustrations, exemples…), un index des pages de définitions et une page dictionnaire avec toutes les définitions. Comment feriez-vous ça ? Réponse : avec les métadonnées.
+
+Ex. : graphe des définitions qui se citent les unes les autres
+
+---
+class: clear
+
+## Obsidian
+<br />
+<br />
+Créée en 2020, **Obsidian** est un logiciel de gestion des connaissances individuelles *propriétaire* basé sur des *fichiers Markdown* (donc réversible).
+
+Obsidian est disponible pour Mac, Windows, Linux, iOS et Android.
+
+Obsidian est utilisé par une communauté très active qui développe de nombreux thèmes et extensions.
+
+.font80[Une année d'étude de Master soit 3 000 notes Obsidian :] 
+.center[<img src="https://preview.redd.it/chwzep72n9ib1.png?width=960&crop=smart&auto=webp&s=ba09a5fe63af011c9cd9dd19527d5e83a48e734c" width="400px" />]
+
+---
+class: clear
+
+## On s'y met ? A la découverte d'Obsidian !
+
+1. Télécharger et installer Obsidian : https://obsidian.md/download
+
+--
+1. Créer un nouveau coffre dans un dossier de votre ordinateur
+
+--
+1. Créer trois dossiers dans Obsidian :
+  * Notes
+  * Modèles
+  * Images
+
+---
+class: clear
+
+## Organisation des notes
+
+--
+1. Créer trois notes :
+  * Obsidian
+  * Basecamp
+  * Numérique collaboratif et organisation du travail
+<br />
+--
+<br />
+1. Compléter la note "Numérique collaboratif et organisation du travail" en synthétisant la publication de Suzy Canivenc et Marie-Laure Cahier (2023), *Numérique collaboratif et organisation du travail. Au-delà des promesses*, Paris, Presses des Mines, https://www.la-fabrique.fr/wp-content/uploads/2023/08/n46_numerique-collaboratif-et-organisation-du-travail_web.pdf  (pp. 41-47)
+<br />
+Syntaxe markdown (langage de balisage léger) !
+
+???
+
+métadonnées + liens internes 
+
+--
+class: clear
+
+## L'outil idéal
+Des notes :
+- granulaires
+- reliées et formant un graphe
+- possédant des métadonnées
+- requêtables
+<br />
+
+--
+
+Des métadonnées :
+- personnalisables 
+- cherchables 
+- requêtables
+<br />
+
+--
+
+Des informations :
+- requêtables
+- actionables (ex. tâche)

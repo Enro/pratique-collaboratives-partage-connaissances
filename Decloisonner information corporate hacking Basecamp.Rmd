@@ -299,8 +299,7 @@ class: clear
 ### Communication interne mieux ciblée et priorisation des messages
 
 <br />
-> Dans cette organisation, les usages de Slack ont été subordonnés à des principes d’utilisation pour que chacun apprenne à définir ses canaux prioritaires et à se désabonner de ceux qui lui sont moins utiles. Autrement dit, pour que ça fonctionne, il faut comprendre l’esprit sous-jacent à l’outil et installer les
-usages qui lui correspondent et qui sont adaptés aux besoins opérationnels. 
+> Dans cette organisation, les usages de Slack ont été subordonnés à des principes d’utilisation pour que chacun apprenne à définir ses canaux prioritaires et à se désabonner de ceux qui lui sont moins utiles. Autrement dit, pour que ça fonctionne, il faut comprendre l’esprit sous-jacent à l’outil et installer les usages qui lui correspondent et qui sont adaptés aux besoins opérationnels. 
 
 .footnote[Suzy Canivenc et Marie-Laure Cahier (2023), *Numérique collaboratif et organisation du travail. Au-delà des promesses*, Paris, Presses des Mines, https://www.la-fabrique.fr/wp-content/uploads/2023/08/n46_numerique-collaboratif-et-organisation-du-travail_web.pdf]
 
