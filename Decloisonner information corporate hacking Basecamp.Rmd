@@ -293,6 +293,10 @@ class: clear
 
 Lire *Numérique collaboratif et organisation du travail. Au-delà des promesses* /  https://www.la-fabrique.fr/wp-content/uploads/2023/08/n46_numerique-collaboratif-et-organisation-du-travail_web.pdf (pp. 41-47) et discuter
 
+???
+
+1h sont écoulées, faire une pause de 10', distribuer le document et le faire lire à leur retour.
+
 ---
 class: clear
 
@@ -353,6 +357,8 @@ class: clear
 
 ???
 
+1h45 sont écoulées, faire une pause de 10' avant de lancer le travail
+
 30 min de travail en binôme + 10 min de mise en commun à l'oral
 
 ---
@@ -411,7 +417,7 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 
 ???
 
-Inviter les étudiants via Adminland https://3.basecamp.com/5682077/account "Someone who works at UBM"
+Faire une pause de 10' le temps d'inviter les étudiants via Adminland https://3.basecamp.com/5682077/account "Someone who works at UBM" (préférable : le faire la veille)
 
 ---
 class: clear

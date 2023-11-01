@@ -1,0 +1,102 @@
+# Tutoriel Dataview
+
+Tutoriel inspiré par Obsidian Rocks : https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/
+
+## Votre première requête en *Dataview Query Language*
+
+````
+```dataview
+LIST 
+\```
+````
+
+crée un index de toutes vos notes Obsidian. 
+
+## Filtrer les notes à afficher
+
+### WHERE
+
+On peut choisir de filtrer sur un champ :
+
+````
+```dataview
+LIST
+WHERE Qui = "Isabelle"
+\```
+````
+
+où ```Qui``` est un champ en ligne que vous avez créé (les champs en ligne sont déterminés par l'utilisateur uniquement).
+
+On peut aussi choisir de filtrer sur un tag :
+
+````
+```dataview
+LIST
+WHERE file.tags = "logiciel"
+\```
+````
+
+C'est la commande ```WHERE``` qui permet d'exclure les notes qui ne remplissent pas le(s) condition(s) voulue(s).
+
+La commande ```WHERE``` s'applique à l'ensemble des champs requêtables, à savoir :
+
+| Nom du champ | Type de données | Description |
+|:----|:----|:----|
+| `file.name` | Texte | Le nom de la note. |
+| `file.folder` | Texte | Le chemin du dossier dans lequel se trouve la note. |
+| `file.path` | Texte | Le chemin complet de la note, y compris le nom du fichier. |
+| `file.ext` | Texte | L'extension de la note, généralement `md`. |
+| `file.link` | Lien | Un lien vers la note. |
+| `file.size` | Nombre | La taille (en octets) de la note. |
+| `file.ctime` | Date avec heure | La date à laquelle la note a été créée. |
+| `file.cday` | Date | La date à laquelle la note a été créée. |
+| `file.mtime` | Date avec heure | La date à laquelle la note a été modifiée pour la dernière fois. |
+| `file.mday` | Date | La date à laquelle la note a été modifiée pour la dernière fois. |
+| `file.tags` | Liste | Une liste de tous les tags uniques dans la note. Les sous-tags sont indexés pour chaque niveau, par exemple `#Tag/1/A` sera indexé comme `[#Tag, #Tag/1, #Tag/1/A]`. |
+| `file.etags` | Liste | Une liste de tous les tags explicites dans la note ; contrairement à `file.tags`, elle ne décompose pas les sous-tags, c'est-à-dire `[#Tag/1/A]`. |
+| `file.inlinks` | Liste | Une liste de tous les liens entrants vers cette note, c'est-à-dire toutes les notes contenant un lien vers cette note. |
+| `file.outlinks` | Liste | Une liste de tous les liens sortants de cette note, c'est-à-dire tous les liens que la note contient. |
+| `file.aliases` | Liste | Une liste de tous les alias pour la note tels que définis via l'[en-tête YAML](https://help.obsidian.md/How+to/Add+aliases+to+note). |
+| `file.tasks` | Liste | Une liste de toutes les tâches dans la note. |
+| `file.lists` | Liste | Une liste de tous les éléments de liste dans le fichier (y compris les tâches). |
+| `file.day` | Date | Disponible uniquement si le fichier contient une date dans son nom de fichier (sous la forme `yyyy-mm-dd` ou `yyyymmdd`), ou s'il contient une propriété ou un champ `Date`. |
+
+Pour manipuler des dates (champs `file.day`, `file.ctime`, `file.cday`, `file.mtime`, `file.mday`) il est possible de les comparer à la date du jour. Par exemple 
+
+```dataview
+LIST
+WHERE file.mtime >= date(today) - dur(1 week)
+\```
+
+exclut les fichier qui n'ont pas été modifiés dans la semaine écoulée (autrement dit, seuls les fichiers dont la dernière modification est plus récente que la date du jour moins 1 semaine sont conservés).
+
+Toutes les options permettant de manier les dates et les durées sont dans [la documentation Dataview](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates).
+
+### LIMIT
+
+Cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
+
+
+## Choisir ce qu'on veut afficher
+
+cf. https://blacksmithgu.github.io/obsidian-dataview/queries/query-types/
+
+### 
+
+## Trier ou grouper les résultats à afficher
+
+cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
+
+### SORT 
+
+### GROUP BY
+
+## Exercice 
+
+* combiner les sources : 
+````
+```dataview
+LIST
+FROM "Notes" AND (#projet/actif OR #projet/terminé) 
+\```
+````

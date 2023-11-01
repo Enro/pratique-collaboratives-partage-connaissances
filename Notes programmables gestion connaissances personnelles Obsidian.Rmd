@@ -272,7 +272,7 @@ Source : https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/
 ---
 class: clear
 
-## Types de données que l'on peut requêter 
+## Types d'informations que l'on peut requêter 
 
 Les requêtes Dataview peuvent porter sur :
 * les propriétés (en-tête YAML)
@@ -296,59 +296,4 @@ Pour cacher cette syntaxe il faut écrire <code>Rendre les clés à (Qui:: Isabe
 ---
 class: clear 
 
-## Votre première requête en *Dataview Query Language*
 
-````
-```dataview
-LIST 
-\```
-````
-
-crée un index de toutes vos notes Obsidian. 
-
-<br /><br />
-On peut choisir de se limiter à un dossier ou à un tag :
-
-.pull-left[````
-```dataview
-LIST
-FROM "Notes"
-\```
-````]
-
-.pull-right[````
-```dataview
-LIST
-FROM #tag
-\```
-````]
-
-<br /><br />
-On peut choisir de filtrer sur un champ :
-
-.pull-left[````
-```dataview
-LIST
-WHERE Qui = "Isabelle"
-\```
-````]
-
-.pull-right[````
-```dataview
-LIST
-WHERE file.tags = "logiciel"
-\```
-````]
-
----
-class: clear
-
-## Exercice 
-
-* combiner les sources : 
-````
-```dataview
-LIST
-FROM "Notes" AND (#projet/actif OR #projet/terminé) 
-\```
-````
