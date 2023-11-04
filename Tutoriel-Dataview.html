@@ -371,7 +371,7 @@ LIST
 <div id="filtrer-les-notes-à-afficher" class="section level2">
 <h2>Filtrer les notes à afficher</h2>
 <div id="where" class="section level3">
-<h3><code>WHERE</code></h3>
+<h3>WHERE</h3>
 <p>On peut choisir de filtrer sur un champ :</p>
 <pre><code>```dataview
 LIST
@@ -524,15 +524,24 @@ exclut les fichier qui n&#39;ont pas été modifiés dans la semaine écoulée (
 
 Toutes les options permettant de manier les dates et les durées sont dans [la documentation Dataview](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates).
 
+### LIMIT
+
+Cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
 
 
 ## Choisir ce qu&#39;on veut afficher
 
 cf. https://blacksmithgu.github.io/obsidian-dataview/queries/query-types/
 
+### 
+
 ## Trier ou grouper les résultats à afficher
 
 cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
+
+### SORT 
+
+### GROUP BY
 
 ## Exercice 
 
@@ -540,6 +549,9 @@ cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
 <pre class="dataview"><code>LIST
 FROM &quot;Notes&quot; AND (#projet/actif OR #projet/terminé) 
 \```</code></pre>
+<p style="text-align: center;">
+Rédigé par Antoine Blanchard en novembre 2023
+</p>
 </div>
 </div>
 </div>

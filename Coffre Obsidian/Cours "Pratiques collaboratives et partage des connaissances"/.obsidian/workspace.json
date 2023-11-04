@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "e6a6dfaa13c913a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fb480be0cb7cc30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c3285a53f364e52",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8b9cb405875ebada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modèles/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48a6609800633b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modèles/UE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7158fee47e8e81f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modèles/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d362a548175b660d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pratiques collaboratives et gestion des connaissances.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e495df97642de2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pratiques collaboratives et gestion des connaissances.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22f093c571ec5d10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pratiques collaboratives n° 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2adba918820e965b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0884431db1344f73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85a98e84c2e5324e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pratiques collaboratives n° 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88baf44accf7f6f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modèles/Devoir.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5729e3db9fdedfbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "85bb1ee9f3237db2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "167f4fa5bc897cbe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c229703e06e8c0ad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1fba161f8863461a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eb21654680dc0fe3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2ac82d8bfe787d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b553a7a1aae67826",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Modèles/Devoir.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1bdc8a2b0b543ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Modèles/Devoir.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8fbfc580d25c0260",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5d87c389e37f5efb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Modèles/Devoir.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "88baf44accf7f6f3",
+  "lastOpenFiles": [
+    "Notes/Pratiques collaboratives et gestion des connaissances.md",
+    "Notes/Pratiques collaboratives n° 5.md",
+    "Notes/Pratiques collaboratives n° 4.md",
+    "Notes/Pratiques collaboratives n° 3.md",
+    "Notes/Pratiques collaboratives n° 2.md",
+    "Notes/Obsidian.md",
+    "Notes/Basecamp.md",
+    "Notes/Pratiques collaboratives n° 1.md",
+    "Modèles/UE.md",
+    "Modèles/Cours.md",
+    "Modèles/Devoir.md",
+    "Images",
+    "Modèles",
+    "Notes"
+  ]
+}

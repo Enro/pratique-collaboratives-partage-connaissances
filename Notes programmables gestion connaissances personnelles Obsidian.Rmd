@@ -226,42 +226,51 @@ class: clear
   * Modèles
   * Images
 
----
-class: clear
-
-## Organisation des notes
-
 --
-1. Créer quatre notes dans le dossier Notes :
+1. Créer deux notes dans le dossier Notes :
   * Obsidian
   * Basecamp
-  * Numérique collaboratif et organisation du travail
-  * UE Pratiques collaboratives et partage de connaissances
-<br />
---
-<br />
-1. Compléter la note "Numérique collaboratif et organisation du travail" en synthétisant la publication de Suzy Canivenc et Marie-Laure Cahier (2023), *Numérique collaboratif et organisation du travail. Au-delà des promesses*, Paris, Presses des Mines, https://www.la-fabrique.fr/wp-content/uploads/2023/08/n46_numerique-collaboratif-et-organisation-du-travail_web.pdf  (pp. 41-47)
-<br />
 
-.inverse[La syntaxe markdown] est un langage de balisage léger ! Voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md
+--
+2. Rédiger quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md]
+
+--
+3. Ajouter des tags sur ces deux notes.
+
 
 ???
 
-L'objectif d'un langage de balisage léger est de faciliter la création de documents lisibles par les humains et également analysables par les machines ; il est utilisé pour les cas où un langage de balisage complet comme le XML ou HTML serait trop complexe
+L'objectif d'un langage de balisage léger est de faciliter la création de documents lisibles par les humains et également analysables par les machines ; il est utilisé pour les cas où un langage de balisage complet comme le XML ou HTML serait trop complexe.
+
+Exemples de tags : "logiciel", "outil"
 
 ---
 class: clear
 
 ## Utilisation des modèles (*templates*)
 
+1. Aller dans `Paramètres` > `Modules principaux` > activer le module `Modèles` > cliquer sur la route crantées (`Options`) et définir l'emplacement du dossier modèles comme `Modèles`.
 
+--
+2. Recopiez ces trois modèles dans trois notes à placer dans le dossier `Modèles` :
+  * UE : ___
+  * Cours : _____
+  * Devoir : ____
+
+--
+3. 
+
+---
+class: clear
+
+## 
 
 ---
 class: clear
 
 ## Qu'est-ce que Dataview ?
 
-Dataview est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes (il n'est pas possible de les éditer).
+Dataview est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes.
 
 ![4 affichages possibles](img/types-of-dataview-data-1.jpg)
 
@@ -270,30 +279,8 @@ Dataview est un plugin pour Obsidian qui permet d'afficher les informations cont
 Source : https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/
 
 ---
-class: clear
-
-## Types d'informations que l'on peut requêter 
-
-Les requêtes Dataview peuvent porter sur :
-* les propriétés (en-tête YAML)
-* les tâches 
-* les items en listes
-* le chemin et le nom des notes
-* les liens entrants (*inlinks*) et liens sortants (*outlinks*)
-* la taille des notes (en octets)
-* les dates de création et de modification des notes
-* les champs en ligne
-
---
-<br />
-Un **champ en ligne** permet d'insérer une information requêtable directement dans le corps de la note. Elle est utile quand cette information ne concerne pas la note dans son ensemble (contrairement à la propriété de l'en-tête).
-
-Syntaxe : <code>Propriété:: Valeur</code>
-
-Pour cacher cette syntaxe il faut écrire <code>Rendre les clés à (Qui:: Isabelle)</code> qui s'affichera <code>Rendre les clés à Isabelle</code>.
-
-
----
 class: clear 
 
+## Tutoriel Dataview
 
+https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-Dataview.html
