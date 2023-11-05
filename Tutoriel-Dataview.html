@@ -361,29 +361,72 @@ pre code {
 <div id="tutoriel-dataview" class="section level1">
 <h1>Tutoriel Dataview</h1>
 <p>Tutoriel inspiré par Obsidian Rocks : <a href="https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/" class="uri">https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/</a></p>
-<div id="votre-première-requête-en-dataview-query-language" class="section level2">
-<h2>Votre première requête en <em>Dataview Query Language</em></h2>
+<p>Vous pouvez vous aider de <a href="https://s-blu.github.io/basic-dataview-query-builder/" class="uri">https://s-blu.github.io/basic-dataview-query-builder/</a>
+pour bâtir vos requêtes.</p>
+<div id="installer-le-module-dataview" class="section level2">
+<h2>Installer le module Dataview</h2>
+<p>Aller dans <code>Paramètres</code> &gt;
+<code>Modules complémentaires</code> &gt;
+<code>Activer les modules complémentaires</code> (si c’est la première
+fois que vous installez un module communautaire) &gt;
+<code>Parcourir</code> &gt; chercher <code>Dataview</code> et cliquer
+sur <code>Installer</code> &gt; cliquer sur <code>Activer</code>.</p>
+</div>
+<div id="types-dinformations-que-lon-peut-requêter" class="section level2">
+<h2>Types d’informations que l’on peut requêter</h2>
+<p>Les requêtes Dataview peuvent porter sur : * les propriétés (en-tête
+YAML) * les tâches * les items en listes * le chemin et le nom des notes
+* les liens entrants (<em>inlinks</em>) et liens sortants
+(<em>outlinks</em>) * la taille des notes (en octets) * les dates de
+création et de modification des notes * les champs en ligne</p>
+<p>Un <strong>champ en ligne</strong> permet d’insérer une information
+requêtable directement dans le corps de la note. Elle est utile quand
+cette information ne concerne pas la note dans son ensemble
+(contrairement à la propriété de l’en-tête).</p>
+<p>Syntaxe : <code>Propriété:: Valeur</code></p>
+<p>Pour cacher cette syntaxe il faut écrire <code>Faire ce devoir avec
+(Qui:: Isabelle)</code> qui s’affichera <code>Faire ce devoir avec
+Isabelle</code>.</p>
+</div>
+<div id="première-requête-en-dataview-query-language" class="section level2">
+<h2>Première requête en <em>Dataview Query Language</em></h2>
 <pre><code>```dataview
 LIST 
-\```</code></pre>
+```</code></pre>
 <p>crée un index de toutes vos notes Obsidian.</p>
 </div>
 <div id="filtrer-les-notes-à-afficher" class="section level2">
 <h2>Filtrer les notes à afficher</h2>
+<div id="from" class="section level3">
+<h3>FROM</h3>
+<p>On peut restreindre la requête à un dossier :</p>
+<pre><code>```dataview
+LIST 
+FROM &quot;Cours&quot;
+```</code></pre>
+<p>ou un tag :</p>
+<pre><code>```dataview
+LIST 
+FROM #outil
+```</code></pre>
+<p>Il est aussi possible d’exclure un tag avec la syntaxe
+<code>-#tag</code> et d’exlure un dossier avec la syntaxe
+<code>-&quot;Dossier&quot;</code>.</p>
+</div>
 <div id="where" class="section level3">
 <h3>WHERE</h3>
 <p>On peut choisir de filtrer sur un champ :</p>
 <pre><code>```dataview
 LIST
 WHERE Qui = &quot;Isabelle&quot;
-\```</code></pre>
+```</code></pre>
 <p>où <code>Qui</code> est un champ en ligne que vous avez créé (les
 champs en ligne sont déterminés par l’utilisateur uniquement).</p>
 <p>On peut aussi choisir de filtrer sur un tag :</p>
 <pre><code>```dataview
 LIST
 WHERE file.tags = &quot;logiciel&quot;
-\```</code></pre>
+```</code></pre>
 <p>C’est la commande <code>WHERE</code> qui permet d’exclure les notes
 qui ne remplissent pas le(s) condition(s) voulue(s).</p>
 <p>La commande <code>WHERE</code> s’applique à l’ensemble des champs
@@ -514,41 +557,116 @@ dans son nom de fichier (sous la forme <code>yyyy-mm-dd</code> ou
 </table>
 <p>Pour manipuler des dates (champs <code>file.day</code>,
 <code>file.ctime</code>, <code>file.cday</code>,
-<code>file.mtime</code>, <code>file.mday</code>) il est possible de les
-comparer à la date du jour. Par exemple</p>
-<pre class="dataview"><code>LIST
+<code>file.mtime</code>, <code>file.mday</code>) il est généralement
+utile de les comparer à la date du jour. Par exemple</p>
+<pre><code>```dataview
+LIST
 WHERE file.mtime &gt;= date(today) - dur(1 week)
-\```
-
-exclut les fichier qui n&#39;ont pas été modifiés dans la semaine écoulée (autrement dit, seuls les fichiers dont la dernière modification est plus récente que la date du jour moins 1 semaine sont conservés).
-
-Toutes les options permettant de manier les dates et les durées sont dans [la documentation Dataview](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates).
-
-### LIMIT
-
-Cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
-
-
-## Choisir ce qu&#39;on veut afficher
-
-cf. https://blacksmithgu.github.io/obsidian-dataview/queries/query-types/
-
-### 
-
-## Trier ou grouper les résultats à afficher
-
-cf. https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/
-
-### SORT 
-
-### GROUP BY
-
-## Exercice 
-
-* combiner les sources : </code></pre>
-<pre class="dataview"><code>LIST
-FROM &quot;Notes&quot; AND (#projet/actif OR #projet/terminé) 
-\```</code></pre>
+```</code></pre>
+<p>exclut les fichier qui n’ont pas été modifiés dans la semaine écoulée
+(littéralement : la requête ne garde que les fichiers dont la dernière
+modification est postérieure à la date du jour moins 1 semaine sont
+conservés).</p>
+<p>Toutes les options permettant de manier les dates et les durées sont
+décrites dans <a href="https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates">la
+documentation Dataview</a>.</p>
+</div>
+<div id="limit" class="section level3">
+<h3>LIMIT</h3>
+<p>Pour n’afficher que les 5, 10, 20 premiers résultats, il est possible
+d’utiliser la commande <code>LIMIT 5</code> ou <code>LIMIT 10</code>
+etc.</p>
+</div>
+</div>
+<div id="choisir-ce-quon-veut-afficher" class="section level2">
+<h2>Choisir ce qu’on veut afficher</h2>
+<p>L’affichage des résultats peut prendre quatre formes : * une liste *
+un tableau * une liste de tâches * un calendrier</p>
+<div id="list" class="section level3">
+<h3>LIST</h3>
+<p>Toutes les requêtes jusqu’ici utilisaient la commande
+<code>LIST</code>, qui affiche les résultats (c’est-à-dire les noms des
+notes) sous forme de liste à puces.</p>
+<p>Il est possible de compléter le nom des notes en affichant le chemin
+des dossiers par exemple :</p>
+<pre><code>```dataview 
+LIST file.folder
+```</code></pre>
+</div>
+<div id="table" class="section level3">
+<h3>TABLE</h3>
+<p>La commande <code>TABLE</code> affiche les résultats de la requête
+sous forme de tableau, avec une ou plusieurs colonnes. Par exemple, la
+requête ci-dessous affiche la liste des notes sous la forme d’un tableau
+avec une unique colonne :</p>
+<pre><code>```dataview
+TABLE
+```</code></pre>
+<p>Pour avoir plusieurs colonnes, il suffit de spécifier les colonnes à
+afficher en les spérant par une virgule :</p>
+<pre><code>```dataview
+TABLE file.cday, file.folder, file.tags
+```</code></pre>
+<p>Il est également possible de modifier l’en-tête des colonnes en
+précisant :</p>
+<pre><code>```dataview
+TABLE file.cday AS &quot;Date de création&quot;, file.folder AS Dossier, file.tags as Tags
+```</code></pre>
+<p>Et il est possible de modifier la première colonne (par défaut le nom
+des notes) avec la commande <code>TABLE WITHOUT ID</code> :</p>
+<pre><code>```dataview
+TABLE WITHOUT ID
+file.link AS Note, file.cday AS &quot;Date de création&quot;, file.folder AS Dossier, file.tags as Tags
+```</code></pre>
+</div>
+<div id="task" class="section level3">
+<h3>TASK</h3>
+<p>La commande <code>TASK</code>retourne des tâches et non pas des
+pages. Ces tâches se comportent comme des tâches classiques et à
+l’inverse des autres requêtes, celle-ci fait plus qu’afficher des
+informations, et permet de les modifier :</p>
+<pre><code>```dataview
+TASK
+```</code></pre>
+<p>ou</p>
+<pre><code>```dataview
+TASK
+WHERE !completed AND contains(tags, &quot;#urgent&quot;)
+```</code></pre>
+</div>
+<div id="calendar" class="section level3">
+<h3>CALENDAR</h3>
+<p>La commande <code>CALENDAR</code> affiche un calendrier sur lequel
+chaque note est représentée par un point. Par conséquent, la requête
+doit préciser le champ de type date qui est pris en compte :</p>
+<pre><code>```dataview
+CALENDAR file.ctime
+```</code></pre>
+</div>
+</div>
+<div id="trier-ou-grouper-les-résultats-à-afficher" class="section level2">
+<h2>Trier ou grouper les résultats à afficher</h2>
+<div id="sort" class="section level3">
+<h3>SORT</h3>
+<p>La commande <code>SORT</code> permet de trier les résultats à
+afficher selon un ou plusieurs champs, dans l’ordre des champs (en cas
+d’ex-aequo) :</p>
+<pre><code>```dataview
+TABLE file.cday, file.folder, file.tags
+SORT file.name ASC, file.cday DESC
+```</code></pre>
+<p>Le tri peut se faire dans l’ordre croissant (<code>ASC</code>) ou
+décroissant (<code>DESC</code>).</p>
+</div>
+<div id="group-by" class="section level3">
+<h3>GROUP BY</h3>
+<p>La commande <code>GROUP BY</code> permet d’afficher plusieurs
+résultats par ligne, une ligne étant créée pour chaque valeur possible
+:</p>
+<pre><code>```dataview
+TASK
+GROUP BY file.folder
+```</code></pre>
 <p style="text-align: center;">
 Rédigé par Antoine Blanchard en novembre 2023
 </p>

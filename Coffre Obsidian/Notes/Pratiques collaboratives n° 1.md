@@ -3,6 +3,7 @@ Date: 2023-10-18
 tags:
   - cours
 Enseignant: Antoine Blanchard
+UE: Pratiques collaboratives et gestion des connaissances
 ---
 > [!info] Support de cours
 > https://github.com/Enro/pratiques-collaboratives-partage-connaissances/blob/main/Decloisonner-information-corporate-hacking-Basecamp.html

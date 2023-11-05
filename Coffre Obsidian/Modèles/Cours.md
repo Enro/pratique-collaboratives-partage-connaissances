@@ -2,7 +2,8 @@
 Date: 
 tags:
   - cours
-Enseignant:
+Enseignant: 
+UE:
 ---
 > [!info] Support de cours
 > 

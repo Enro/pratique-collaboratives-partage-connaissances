@@ -24,7 +24,7 @@ Un **champ en ligne** permet d'insérer une information requêtable directement 
 
 Syntaxe : <code>Propriété:: Valeur</code>
 
-Pour cacher cette syntaxe il faut écrire <code>Rendre les clés à (Qui:: Isabelle)</code> qui s'affichera <code>Rendre les clés à Isabelle</code>.
+Pour cacher cette syntaxe il faut écrire <code>Faire ce devoir avec (Qui:: Isabelle)</code> qui s'affichera <code>Faire ce devoir avec Isabelle</code>.
 
 ## Première requête en *Dataview Query Language*
 
@@ -38,6 +38,26 @@ crée un index de toutes vos notes Obsidian.
 
 ## Filtrer les notes à afficher
 
+### FROM
+
+On peut restreindre la requête à un dossier :
+
+````
+```dataview
+LIST FROM "Cours"
+```
+````
+
+ou un tag :
+
+````
+```dataview
+LIST FROM #outil
+```
+````
+
+Il est aussi possible d'exclure un tag avec la syntaxe `-#tag` et d'exlure un dossier avec la syntaxe `-"Dossier"`.
+
 ### WHERE
 
 On peut choisir de filtrer sur un champ :
@@ -50,15 +70,6 @@ WHERE Qui = "Isabelle"
 ````
 
 où `Qui` est un champ en ligne que vous avez créé (les champs en ligne sont déterminés par l'utilisateur uniquement).
-
-On peut aussi choisir de filtrer sur un tag :
-
-````
-```dataview
-LIST
-WHERE file.tags = "logiciel"
-```
-````
 
 C'est la commande ```WHERE``` qui permet d'exclure les notes qui ne remplissent pas le(s) condition(s) voulue(s).
 

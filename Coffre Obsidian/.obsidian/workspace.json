@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c6d38060d95513d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exercices corrigés Dataview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Exercices corrigés Dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Exercices corrigés Dataview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sans titre.md"
+                "file": "Exercices corrigés Dataview.md"
               }
             }
           }
@@ -144,18 +159,20 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "f19df297531405fb",
+  "active": "9c6d38060d95513d",
   "lastOpenFiles": [
-    "Notes/Pratiques collaboratives n° 5.md",
-    "Sans titre.md",
-    "Notes/Pratiques collaboratives et gestion des connaissances.md",
+    "Notes/Pratiques collaboratives n° 3.md",
+    "Exercices corrigés Dataview.md",
     "Notes/Pratiques collaboratives n° 1.md",
-    "Basecamp.md",
+    "Notes/Pratiques collaboratives n° 5.md",
+    "Notes/Pratiques collaboratives n° 4.md",
     "Notes/Pratiques collaboratives n° 2.md",
+    "Notes/Pratiques collaboratives et gestion des connaissances.md",
+    "Modèles/Cours.md",
+    "Modèles/UE.md",
     "Notes/Obsidian.md",
     "Notes/Basecamp.md",
-    "Modèles/UE.md",
-    "Modèles/Cours.md",
+    "Basecamp.md",
     "Modèles/Devoir.md"
   ]
 }

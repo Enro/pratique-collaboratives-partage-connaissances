@@ -2,7 +2,8 @@
 Date: 2023-12-15
 tags:
   - cours
-Enseignant:
+Enseignant: Antoine Blanchard
+UE: Pratiques collaboratives et gestion des connaissances
 ---
 > [!info] Support de cours
 > 
