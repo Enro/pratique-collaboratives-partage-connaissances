@@ -1,6 +1,6 @@
 ---
 title: Collaborer, c’est faire circuler l’information
-subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
 date: "Octobre 2023"
 output:

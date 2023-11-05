@@ -1,6 +1,6 @@
 ---
 title: Gestion du travail et des connaissances individuelles avec Obsidian
-subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
 date: "Novembre 2023"
 output:
