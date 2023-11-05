@@ -22,6 +22,9 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
+--> support de présentation
+--> [Tutoriel Dataview](Tutoriel-Dataview.html)
+
 ### Session n° 3
 
 **Mercredi 6 décembre: 13h30-17H30**
