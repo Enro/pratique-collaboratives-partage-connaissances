@@ -197,11 +197,15 @@ CALENDAR file.ctime
 ```
 ````
 
+Si tous les résultats de la requête ne possèdent pas ce champ de type date (ici `file.ctime`) alors le calendrier ne s'affiche pas.
+
 ## Trier ou grouper les résultats à afficher
 
 ### SORT 
 
-La commande `SORT` permet de trier les résultats à afficher selon un ou plusieurs champs, dans l'ordre des champs (en cas d'ex-aequo) :
+La commande `SORT` permet de trier les résultats à afficher selon un ou plusieurs champs, dans l'ordre des champs (en cas d'ex-aequo). 
+
+Le tri peut se faire dans l'ordre croissant (`ASC`) ou décroissant (`DESC`) :
 
 ````
 ```dataview
@@ -209,8 +213,6 @@ TABLE file.cday, file.folder, file.tags
 SORT file.name ASC, file.cday DESC
 ```
 ````
-
-Le tri peut se faire dans l'ordre croissant (`ASC`) ou décroissant (`DESC`).
 
 ### GROUP BY
 

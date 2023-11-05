@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pratiques collaboratives n° 5.md",
+                "file": "Exercices Dataview.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercices corrigés Dataview.md",
+                "file": "Notes/Pratiques collaboratives n° 1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercices corrigés Dataview.md",
+                "file": "Exercices Dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercices corrigés Dataview.md",
+                "file": "Exercices Dataview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercices corrigés Dataview.md"
+                "file": "Exercices Dataview.md"
               }
             }
           }
@@ -159,13 +158,14 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "9c6d38060d95513d",
+  "active": "4ae28b7248bf1aa1",
   "lastOpenFiles": [
-    "Notes/Pratiques collaboratives n° 3.md",
-    "Exercices corrigés Dataview.md",
-    "Notes/Pratiques collaboratives n° 1.md",
+    "Exercices Dataview.pdf",
     "Notes/Pratiques collaboratives n° 5.md",
+    "Notes/Pratiques collaboratives n° 1.md",
+    "Exercices Dataview.md",
     "Notes/Pratiques collaboratives n° 4.md",
+    "Notes/Pratiques collaboratives n° 3.md",
     "Notes/Pratiques collaboratives n° 2.md",
     "Notes/Pratiques collaboratives et gestion des connaissances.md",
     "Modèles/Cours.md",
