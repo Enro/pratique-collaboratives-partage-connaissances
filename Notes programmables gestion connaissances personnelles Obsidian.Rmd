@@ -232,10 +232,10 @@ class: clear
   * Basecamp
 
 --
-2. Rédiger quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md]
+2. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md
 
 --
-3. Ajouter des tags sur ces deux notes.
+3. Ajouter des tags sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Add file property`. 
 
 
 ???
@@ -247,28 +247,32 @@ Exemples de tags : "logiciel", "outil"
 ---
 class: clear
 
-## Utilisation des modèles (*templates*)
+## Aller plus loin avec les modèles (*templates*)
 
-1. Aller dans `Paramètres` > `Modules principaux` > activer le module `Modèles` > cliquer sur la route crantées (`Options`) et définir l'emplacement du dossier modèles comme `Modèles`.
-
---
-2. Recopiez ces trois modèles dans trois notes à placer dans le dossier `Modèles` :
-  * UE : ___
-  * Cours : _____
-  * Devoir : ____
+1. Aller dans `Paramètres` > `Modules principaux` > activer le module `Modèles` `r icons::fontawesome("toggle-on")` > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
 
 --
-3. 
+2. Télécharger ces trois modèles à placer dans le dossier `Modèles` : https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Mod%C3%A8les
+  * UE
+  * Cours
+  * Devoir
+  
+--
+1. Tester un modèle : créer une note et cliquer sur l'icône `r icons::fontawesome("copy")` `Insérer le modèle` puis choisir le modèle à appliquer
+
+--
+3. Télécharger les notes que j'ai créées à partir de ces modèles, à placer dans le dossier `Notes` : https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Notes
+
+--
+4. Ajouter des rétroliens vers les notes Basecamp et Obsidian à chaque fois que ces outils sont mentionnés, en utilisant la syntaxe `[[Nom de la note]]`.
+
+--
+5. Afficher le graphe de vos notes en cliquant sur le bouton `r icons::fontawesome("code-branch")` `Ouvrir la vue graphique`.
 
 ---
 class: clear
 
-## 
-
----
-class: clear
-
-## Qu'est-ce que Dataview ?
+## Aller plus loin avec Dataview
 
 Dataview est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes.
 

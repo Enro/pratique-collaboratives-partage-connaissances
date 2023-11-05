@@ -11,8 +11,12 @@
             "id": "4ae28b7248bf1aa1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pratiques collaboratives n° 5.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sans titre.md"
+              }
             }
           }
         ]
@@ -138,6 +144,18 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "4ae28b7248bf1aa1",
-  "lastOpenFiles": []
+  "active": "f19df297531405fb",
+  "lastOpenFiles": [
+    "Notes/Pratiques collaboratives n° 5.md",
+    "Sans titre.md",
+    "Notes/Pratiques collaboratives et gestion des connaissances.md",
+    "Notes/Pratiques collaboratives n° 1.md",
+    "Basecamp.md",
+    "Notes/Pratiques collaboratives n° 2.md",
+    "Notes/Obsidian.md",
+    "Notes/Basecamp.md",
+    "Modèles/UE.md",
+    "Modèles/Cours.md",
+    "Modèles/Devoir.md"
+  ]
 }
