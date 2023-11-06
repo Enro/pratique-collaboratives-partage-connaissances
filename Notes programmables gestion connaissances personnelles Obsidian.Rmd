@@ -20,11 +20,13 @@ Votre collègue Martin Edouard vous propose une réunion mardi à 9h, pour parle
 <br />
 <br />
 <br />
-.center.font150[Que lui répondez-vous ? Préparez votre mail, sans échanger avec vos voisins et voisines.]
+.center.font150[Que lui répondez-vous ? Préparez votre réponse en quelques lignes, sans échanger avec vos voisins et voisines.]
 
 ???
 
-Demander quels étudiants mentionnent la raison de leur indisponibilité, voire proposent à Martin de se joindre à la formation.
+Interroger quelques étudiants au hasard du trombinoscope.
+
+Puis demander quels étudiants mentionnent la raison de leur indisponibilité, voire proposent à Martin de se joindre à la formation.
 
 ---
 class: inverse, mline, center, middle
@@ -43,7 +45,7 @@ class: clear
 * Pour aller plus loin que le papier (*un cahier ne permet pas de gérer ses connaissances*)
 
 --
-* Pour savoir toujours où collecter un nouvelle information
+* Pour savoir toujours où ajouter une nouvelle information
 
 --
 * Pour engranger et faire évoluer ses connaissances tout au long de sa vie
@@ -136,6 +138,8 @@ Des informations :
 
 ???
 
+Le principe de base du Zettelkasten est de prendre des notes sur des fiches individuelles, chaque fiche étant consacrée à une seule idée, concept ou information. Chaque fiche est ensuite étiquetée avec des mots-clés, ce qui permet de la retrouver facilement par la suite.
+
 Des notions que vous avez déjà manipulées avec Cosma et Zettlr.
 
 ---
@@ -168,7 +172,7 @@ class: clear
 
 ???
 
-1. 
+1. 5
 
 2. L'index fait une requête sur les métadonnées des notes, et le dictionnaire embarque les notes
 
@@ -185,7 +189,7 @@ Créée en 2020, **Obsidian** est un logiciel de gestion des connaissances indiv
 
 Obsidian est disponible pour Mac, Windows, Linux, iOS et Android.
 
-Obsidian est utilisé par une communauté très active qui développe de nombreux thèmes et extensions. Et revendique 1M d'utilisateurs^[[Source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps)] !
+Obsidian est utilisé par une communauté très active qui développe de nombreux thèmes et extensions. Et revendique 1M d'utilisateurs ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps)) !
 
 Vous pouvez retrouver Obsidian, Zettlr, Notion… dans ce tableau : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tableau%20des%20outils%20pour%20markdown.md 
 
@@ -218,12 +222,12 @@ class: clear
 #### 1. Télécharger et installer Obsidian : https://obsidian.md/download
 
 --
-#### 2. Créer un nouveau coffre dans un dossier de votre ordinateur
+#### 2. Lancer Obsidian et créer un nouveau coffre dans un dossier de votre ordinateur
 
 --
 #### 3. Créer trois dossiers dans Obsidian :
-* Notes
 * Modèles
+* Notes
 * Images
 
 --
@@ -237,7 +241,7 @@ class: clear
 #### 5. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md
 
 --
-#### 6. Ajouter des tags sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Add file property`. 
+#### 6. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Add file property`. 
 
 ???
 
@@ -253,16 +257,16 @@ class: clear
 1. Aller dans `Paramètres` > `Modules principaux` > activer le module `Modèles` `r icons::fontawesome("toggle-on")` > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
 
 --
-2. Télécharger ces trois modèles à placer dans le dossier `Modèles` : https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Mod%C3%A8les
-  * UE
+2. Télécharger ces trois modèles à placer dans le dossier `Modèles` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Modèles](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Modèles)
   * Cours
   * Devoir
+  * UE
 
 --
 3. Tester un modèle : créer une note et cliquer sur l'icône `r icons::fontawesome("copy")` `Insérer le modèle` puis choisir le modèle à appliquer
 
 --
-3. Télécharger les notes que j'ai créées à partir de ces modèles, à placer dans le dossier `Notes` : https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Notes
+3. Télécharger les notes que j'ai créées à partir de ces modèles, à placer dans le dossier `Notes` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Notes](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Notes)
 
 --
 4. Ajouter des rétroliens vers les notes Basecamp et Obsidian à chaque fois que ces outils sont mentionnés, en utilisant la syntaxe `[[Nom de la note]]`.
