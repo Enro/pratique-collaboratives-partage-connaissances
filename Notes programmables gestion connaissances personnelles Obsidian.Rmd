@@ -315,7 +315,7 @@ https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-D
 
 ???
 
-Exercices corrigés : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices Dataview.md dans Obsidian
+Exercices corrigés : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices corrigés Dataview.md dans Obsidian
 
 Exercices PDF : https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Dataview.pdf
 

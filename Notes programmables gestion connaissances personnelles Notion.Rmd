@@ -29,9 +29,4 @@ Interroger quelques étudiants au hasard du trombinoscope.
 ---
 class: inverse, mline, center, middle
 
-# Rappels sur Obsidian
-
----
-class: clear
-
-## 
+# 
