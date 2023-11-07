@@ -143,7 +143,7 @@ TABLE
 ```
 ````
 
-Pour avoir plusieurs colonnes, il suffit de spécifier les colonnes à afficher en les spérant par une virgule :
+Pour avoir plusieurs colonnes, il suffit de spécifier les colonnes à afficher en les séparant par une virgule :
 
 ````
 ```dataview

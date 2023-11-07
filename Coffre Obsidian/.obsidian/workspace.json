@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercices Dataview.md",
+                "file": "Exercices corrigés Dataview.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercices Dataview.md",
+                "file": "Exercices corrigés Dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercices Dataview.md",
+                "file": "Exercices corrigés Dataview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercices Dataview.md"
+                "file": "Exercices corrigés Dataview.md"
               }
             }
           }
@@ -160,14 +160,16 @@
   },
   "active": "4ae28b7248bf1aa1",
   "lastOpenFiles": [
-    "Exercices Dataview.pdf",
+    "Exercices corrigés Dataview.pdf",
     "Exercices Dataview.md",
-    "Notes/Pratiques collaboratives n° 5.md",
-    "Notes/Pratiques collaboratives n° 1.md",
-    "Notes/Pratiques collaboratives n° 4.md",
+    "Exercices corrigés Dataview.md",
     "Notes/Pratiques collaboratives n° 3.md",
     "Notes/Pratiques collaboratives n° 2.md",
+    "Notes/Pratiques collaboratives n° 1.md",
     "Notes/Pratiques collaboratives et gestion des connaissances.md",
+    "Notes/Pratiques collaboratives n° 5.md",
+    "Notes/Pratiques collaboratives n° 4.md",
+    "Exercices Dataview.pdf",
     "Modèles/Cours.md",
     "Modèles/UE.md",
     "Notes/Obsidian.md",
