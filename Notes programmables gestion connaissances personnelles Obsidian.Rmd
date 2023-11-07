@@ -213,6 +213,9 @@ Graphe de 6 mois de travail soit 530 notes Obsidian :
 <br />
 <br />
 ![graphe mon Obsidian](img/Mon graph Obsidian.png)
+???
+
+40 minutes sont écoulées
 
 ---
 class: clear
@@ -226,15 +229,15 @@ class: clear
 
 --
 #### 3. Créer trois dossiers dans Obsidian :
+* Images
 * Modèles
 * Notes
-* Images
 
 --
 
 #### 4. Créer deux notes dans le dossier Notes :
-* Obsidian
 * Basecamp
+* Obsidian
 
 --
 
@@ -254,7 +257,7 @@ class: clear
 
 ## Aller plus loin avec les modèles (*templates*)
 
-1. Aller dans `Paramètres` > `Modules principaux` > activer le module `Modèles` `r icons::fontawesome("toggle-on")` > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
+1. Aller dans `r icons::fontawesome("cog")` `Paramètres` > `Modules principaux` > activer le module `Modèles` `r icons::fontawesome("toggle-on")` > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
 
 --
 2. Télécharger ces trois modèles à placer dans le dossier `Modèles` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Modèles](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Modèles)
@@ -312,6 +315,22 @@ https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-D
 
 ???
 
-Exercices corrigées : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices corrigés Dataview.md dans Obsidian
+Exercices corrigés : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices corrigés Dataview.md dans Obsidian
 
 Exercices PDF : https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Dataview.pdf
+
+---
+class: clear
+
+## Bilan tête - main - cœur
+<br />
+<br />
+Qu'avez-vous appris ?
+<br />
+<br />
+<br />
+Qu'avez-vous fait ?
+<br />
+<br />
+<br />
+Qu'avez-vous aimé ?

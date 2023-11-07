@@ -1,0 +1,37 @@
+---
+title: Gestion du travail et des connaissances individuelles avec Notion
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
+author: "Antoine Blanchard"
+date: "Décembre 2023"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      ratio: "4:3"
+    anchor_sections: false
+
+---
+class: clear
+
+## Petit échauffement
+<br />
+<br />
+Vous avez un RDV avec votre collègue Isabelle N'diaye dans 3 semaines. Vous avez mis du temps à décrocher ce RDV et souhaitez discuter de nombreux sujets avec elle.
+<br />
+<br />
+<br />
+.center.font150[Comment faites-vous pour n'oublier aucun point à aborder ?]
+
+???
+
+Interroger quelques étudiants au hasard du trombinoscope.
+
+---
+class: inverse, mline, center, middle
+
+# Rappels sur Obsidian
+
+---
+class: clear
+
+## 
