@@ -22,7 +22,7 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
-* support de présentation
+* [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html)
 * [Tutoriel Dataview](Tutoriel-Dataview.html)
 * [Exercices Dataview](Coffre%20Obsidian/Exercices%20Dataview.pdf)
 
