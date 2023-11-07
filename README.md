@@ -24,6 +24,7 @@ Prise de notes programmables et gestion des connaissances individuelles avec Obs
 
 * support de présentation
 * [Tutoriel Dataview](Tutoriel-Dataview.html)
+* [Exercices Dataview](Coffre%20Obsidian/Exercices%20Dataview.pdf)
 
 ### Session n° 3
 
