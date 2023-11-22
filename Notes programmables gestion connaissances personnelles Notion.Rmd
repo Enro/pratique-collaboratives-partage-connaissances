@@ -29,4 +29,59 @@ Interroger quelques étudiants au hasard du trombinoscope.
 ---
 class: inverse, mline, center, middle
 
-# 
+# D'Obsidian à Notion
+---
+class: clear
+
+## Rappels sur Obsidian
+<br />
+<br />
+* logiciel propriétaire mais gratuit
+* fichiers .md stockés en local
+* un seul utilisateur (sauf à stocker les fichiers .md dans un espace partagé)
+* des extensions pour ajouter des fonctionnalités
+* un langage de requête (au niveau de la page) : Dataview
+
+---
+class: clear
+
+## Notion
+<br />
+<br />
+
+* outil payant dans le cloud (SaaS)
+* pas d'accès aux fichiers source
+* plusieurs utilisateurs
+* des modèles (*templates*) pour se faciliter la vie
+* des fonctionnalités de requête simples d'emploi
+
+---
+class: clear
+
+## On s'y met ? À la découverte de Notion !
+
+https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
+
+???
+
+Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter.
+
+---
+class: clear
+
+## Limites de Notion : la vie privée
+
+Cf. Anytype
+
+Exercice : installer Anytype et y importer sa fiche "Mon rapport au numérique collaboratif" https://docs.google.com/presentation/d/1nsvJwZNSTZ_Nod-UTMaQ24ABDVvwRIJyMyFsn-zCaeQ/edit#slide=id.g27e663c5938_0_0
+
+---
+class: clear
+
+## Retour sur l'activité
+
+Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
+
+???
+
+Ergonomique, agréable…

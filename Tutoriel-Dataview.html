@@ -374,7 +374,7 @@ sur <code>Installer</code> &gt; cliquer sur <code>Activer</code>.</p>
 </div>
 <div id="types-dinformations-que-lon-peut-requêter" class="section level2">
 <h2>Types d’informations que l’on peut requêter</h2>
-<p>Les requêtes Dataview peuvent porter sur : * les propriétés (en-tête
+<p>Les requêtes Dataview peuvent porter sur : - les propriétés (en-tête
 YAML) * les tâches * les items en listes * le chemin et le nom des notes
 * les liens entrants (<em>inlinks</em>) et liens sortants
 (<em>outlinks</em>) * la taille des notes (en octets) * les dates de
@@ -401,13 +401,11 @@ LIST
 <h3>FROM</h3>
 <p>On peut restreindre la requête à un dossier :</p>
 <pre><code>```dataview
-LIST 
-FROM &quot;Cours&quot;
+LIST FROM &quot;Cours&quot;
 ```</code></pre>
 <p>ou un tag :</p>
 <pre><code>```dataview
-LIST 
-FROM #outil
+LIST FROM #outil
 ```</code></pre>
 <p>Il est aussi possible d’exclure un tag avec la syntaxe
 <code>-#tag</code> et d’exlure un dossier avec la syntaxe
@@ -422,11 +420,6 @@ WHERE Qui = &quot;Isabelle&quot;
 ```</code></pre>
 <p>où <code>Qui</code> est un champ en ligne que vous avez créé (les
 champs en ligne sont déterminés par l’utilisateur uniquement).</p>
-<p>On peut aussi choisir de filtrer sur un tag :</p>
-<pre><code>```dataview
-LIST
-WHERE file.tags = &quot;logiciel&quot;
-```</code></pre>
 <p>C’est la commande <code>WHERE</code> qui permet d’exclure les notes
 qui ne remplissent pas le(s) condition(s) voulue(s).</p>
 <p>La commande <code>WHERE</code> s’applique à l’ensemble des champs
@@ -603,7 +596,7 @@ avec une unique colonne :</p>
 TABLE
 ```</code></pre>
 <p>Pour avoir plusieurs colonnes, il suffit de spécifier les colonnes à
-afficher en les spérant par une virgule :</p>
+afficher en les séparant par une virgule :</p>
 <pre><code>```dataview
 TABLE file.cday, file.folder, file.tags
 ```</code></pre>
@@ -642,6 +635,9 @@ doit préciser le champ de type date qui est pris en compte :</p>
 <pre><code>```dataview
 CALENDAR file.ctime
 ```</code></pre>
+<p>Si tous les résultats de la requête ne possèdent pas ce champ de type
+date (ici <code>file.ctime</code>) alors le calendrier ne s’affiche
+pas.</p>
 </div>
 </div>
 <div id="trier-ou-grouper-les-résultats-à-afficher" class="section level2">
@@ -650,13 +646,13 @@ CALENDAR file.ctime
 <h3>SORT</h3>
 <p>La commande <code>SORT</code> permet de trier les résultats à
 afficher selon un ou plusieurs champs, dans l’ordre des champs (en cas
-d’ex-aequo) :</p>
+d’ex-aequo).</p>
+<p>Le tri peut se faire dans l’ordre croissant (<code>ASC</code>) ou
+décroissant (<code>DESC</code>) :</p>
 <pre><code>```dataview
 TABLE file.cday, file.folder, file.tags
 SORT file.name ASC, file.cday DESC
 ```</code></pre>
-<p>Le tri peut se faire dans l’ordre croissant (<code>ASC</code>) ou
-décroissant (<code>DESC</code>).</p>
 </div>
 <div id="group-by" class="section level3">
 <h3>GROUP BY</h3>
