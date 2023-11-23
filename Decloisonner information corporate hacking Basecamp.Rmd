@@ -326,8 +326,7 @@ class: clear
 > « Il y a des collaborateurs avec lesquels je ne parlais jamais, et grâce à Teams, maintenant, je leur parle, je sais quelles sont leurs zones de compétence, sur quoi ils travaillent, c’est beaucoup plus facile de leur parler, de leur demander quelque chose […]. Ça intensifie encore l’entraide, le partage. On connaît mieux les chantiers de chacun. Ça noue des liens, je pense, pas forcément plus forts mais a minima mieux renseignés.» 
 
 <br />
-> cette égalité d’accès à l’information réduit la redondance des demandes utilitaires et permet de concentrer les communications interpersonnelles sur des
-sujets à plus forte valeur ajoutée.
+> cette égalité d’accès à l’information réduit la redondance des demandes utilitaires et permet de concentrer les communications interpersonnelles sur des sujets à plus forte valeur ajoutée.
 
 .footnote[Suzy Canivenc et Marie-Laure Cahier (2023), *Numérique collaboratif et organisation du travail. Au-delà des promesses*, Paris, Presses des Mines, https://www.la-fabrique.fr/wp-content/uploads/2023/08/n46_numerique-collaboratif-et-organisation-du-travail_web.pdf]
 

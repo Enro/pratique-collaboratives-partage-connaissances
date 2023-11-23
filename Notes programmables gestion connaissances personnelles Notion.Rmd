@@ -51,9 +51,10 @@ class: clear
 
 * outil payant dans le cloud (SaaS)
 * pas d'accès aux fichiers source
-* plusieurs utilisateurs
+* collaboratif
 * des modèles (*templates*) pour se faciliter la vie
 * des fonctionnalités de requête simples d'emploi
+* 20 millions d'utilisateurs revendiqués en 2021 (1 million pour Obsidian) ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
 
 ---
 class: clear
@@ -70,18 +71,64 @@ Créer un accès invité pour chaque étudiant·e : en haut à droite de la page
 class: clear
 
 ## Limites de Notion : la vie privée
+<br />
+Anytype propose une autre vision :
 
-Cf. Anytype
+> Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust. ([source](https://anytype.io/why/mission/))
 
-Exercice : installer Anytype et y importer sa fiche "Mon rapport au numérique collaboratif" https://docs.google.com/presentation/d/1nsvJwZNSTZ_Nod-UTMaQ24ABDVvwRIJyMyFsn-zCaeQ/edit#slide=id.g27e663c5938_0_0
+Anytype est un logiciel libre développé par une association basée en Suisse.
+
+--
+
+Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
 
 ---
 class: clear
 
-## Retour sur l'activité
+## Anytype en vidéo
+<br />
+<br />
+.center[<iframe title="vimeo-player" src="https://player.vimeo.com/video/848056412?h=7ee3b08a5c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>]
+
+---
+class: clear
+
+## On s'y met ? À la découverte d'Anytype !
+
+#### 1. Installer Anytype
+* télécharger Anytype sur https://download.anytype.io/
+* installer le logiciel et le lancer
+* créer un compte et le sécuriser avec une phrase de récupération (à conserver précieusement)
+
+--
+
+#### 2. Créer une note sur votre rapport au numérique collaboratif
+
+* cliquer sur l'icône `r icons::fontawesome("plus")` puis sur le bouton `Page`
+* recopier vos réponses au questionnaire de la 1<sup>e</sup> séance : https://s.42l.fr/mon-rapport
+* enjoliver votre note
+
+--
+
+#### 3. Exporter votre fiche de lecture Notion et l'importer dans Anytype
+
+* dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
+* dans Anytype, aller dans le menu `Anytype` > `Space Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+
+---
+class: clear
+
+## Bilan de l'activité
 
 Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
 
 ???
 
 Ergonomique, agréable…
+
+---
+class: clear
+
+## Révisez ces séances pour la prochaine fois
+
+Je vous interrogerai par un quiz noté !
