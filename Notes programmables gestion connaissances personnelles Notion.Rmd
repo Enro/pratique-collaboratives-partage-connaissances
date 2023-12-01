@@ -16,7 +16,7 @@ class: clear
 ## Petit échauffement
 <br />
 <br />
-Vous avez un RDV avec votre collègue Isabelle N'diaye dans 3 semaines. Vous avez mis du temps à décrocher ce RDV et souhaitez discuter de nombreux sujets avec elle.
+Vous avez un RDV avec votre collègue Djibril dans 3 semaines. Vous avez mis du temps à décrocher ce RDV et souhaitez discuter de nombreux sujets avec elle.
 <br />
 <br />
 <br />
@@ -40,7 +40,9 @@ class: clear
 * fichiers .md stockés en local
 * un seul utilisateur (sauf à stocker les fichiers .md dans un espace partagé)
 * des extensions pour ajouter des fonctionnalités
+* des modèles (*templates*) pour se faciliter la vie
 * un langage de requête (au niveau de la page) : Dataview
+* 1 million d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
 
 ---
 class: clear
@@ -54,7 +56,7 @@ class: clear
 * collaboratif
 * des modèles (*templates*) pour se faciliter la vie
 * des fonctionnalités de requête simples d'emploi
-* 20 millions d'utilisateurs revendiqués en 2021 (1 million pour Obsidian) ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
+* 20 millions d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
 
 ---
 class: clear
@@ -82,6 +84,10 @@ Anytype est un logiciel libre développé par une association basée en Suisse.
 
 Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
 
+???
+
+All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+
 ---
 class: clear
 
@@ -98,7 +104,7 @@ class: clear
 #### 1. Installer Anytype
 * télécharger Anytype sur https://download.anytype.io/
 * installer le logiciel et le lancer
-* créer un compte et le sécuriser avec une phrase de récupération (à conserver précieusement)
+* créer un compte et le sécuriser avec une phrase de récupération (à conserver confidentiellement et précieusement)
 
 --
 
@@ -110,7 +116,7 @@ class: clear
 
 --
 
-#### 3. Exporter votre fiche de lecture Notion et l'importer dans Anytype
+#### 3. Importer votre fiche de lecture depuis Notion
 
 * dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
 * dans Anytype, aller dans le menu `Anytype` > `Space Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
@@ -129,6 +135,6 @@ Ergonomique, agréable…
 ---
 class: clear
 
-## Révisez ces séances pour la prochaine fois
+## Révisez ces cours pour la prochaine fois
 
 Je vous interrogerai par un quiz noté !
