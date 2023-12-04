@@ -1,0 +1,147 @@
+---
+title: Structurer ses données sous forme tabulaire avec Airtable
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
+author: "Antoine Blanchard"
+date: "Décembre 2023"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      ratio: "4:3"
+    anchor_sections: false
+
+---
+class: inverse, mline, center, middle
+
+# Introduction aux données structurées
+---
+class: clear
+
+## Obsidian (avec Dataview) et Notion permettent de manipuler des données structurées
+<br />
+<br />
+* une note = un objet
+* une propriété = un attribut
+* une observation = une métadonnée
+
+tout en conservant des fonctionnalités de traitement de texte.
+
+C'est un bon compromis !
+
+---
+class: clear
+
+## D'autres outils sont dédiés à la gestion des données tabulaires
+<br />
+<br />
+* Excel, Google Spreadsheet et autres tableurs
+* les systèmes de gestion de bases de données relationnelles (SGBD) : SQL, Access…
+* Airtable, qui est à mi-chemin entre le tableur et les bases de données
+<br />
+<br />
+Ils sont beaucoup plus puissants et performants sur ces données tabulaires !
+
+---
+class: clear
+
+## Quand utiliser Airtable ?
+
+<blockquote>"Si vous utilisez un tableur pour autre chose que des calculs numériques, ce tableur devrait être un Airtable" - mot d'ordre fondateur d'Airtable</blockquote>
+
+> "Les tableurs sont vraiment optimisés pour l'analyse numérique et les calculs financiers. Cependant, près de 90 % des tableurs n'ont pas de formules. La plupart sont utilisés à des fins d'organisation."
+
+.center[<img src="img/Daniel-meme-Airtable.png" width="500">]
+
+---
+class: clear
+
+## Airtable est un outil puissant
+<br />
+<br />
+* outil payant dans le cloud (SaaS)
+* pas d'accès aux fichiers source
+* collaboratif
+* des modèles (*templates*) pour se faciliter la vie
+* convient à de très nombreux usages
+* 750 millions d'utilisateurs actifs en 2021 ([source](https://www.toplyne.io/blog/heir-to-the-tables-the-airtable-story))
+
+---
+class: clear
+
+## On s'y met ? À la découverte de Notion !
+
+https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
+
+???
+
+Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter.
+
+---
+class: clear
+
+## Limites de Notion : la vie privée
+<br />
+Anytype propose une autre vision :
+
+> Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust. ([source](https://anytype.io/why/mission/))
+
+Anytype est un logiciel libre développé par une association basée en Suisse.
+
+--
+
+Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
+
+???
+
+All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+
+---
+class: clear
+
+## Anytype en vidéo
+<br />
+<br />
+.center[<iframe title="vimeo-player" src="https://player.vimeo.com/video/848056412?h=7ee3b08a5c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>]
+
+---
+class: clear
+
+## On s'y met ? À la découverte d'Anytype !
+
+#### 1. Installer Anytype
+* télécharger Anytype sur https://download.anytype.io/
+* installer le logiciel et le lancer
+* créer un compte et le sécuriser avec une phrase de récupération (à conserver confidentiellement et précieusement)
+
+--
+
+#### 2. Créer une note sur votre rapport au numérique collaboratif
+
+* cliquer sur l'icône `r icons::fontawesome("plus")` puis sur le bouton `Page`
+* recopier vos réponses au questionnaire de la 1<sup>e</sup> séance : https://s.42l.fr/mon-rapport
+* enjoliver votre note
+
+--
+
+#### 3. Importer votre fiche de lecture depuis Notion
+
+* dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
+* dans Anytype, aller dans le menu `Anytype` > `Space Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+
+---
+class: clear
+
+## Bilan de l'activité
+
+Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
+
+???
+
+Ergonomique, agréable…
+
+---
+class: clear
+
+## Révisez ces cours pour la prochaine fois
+
+Je vous interrogerai par un quiz noté !

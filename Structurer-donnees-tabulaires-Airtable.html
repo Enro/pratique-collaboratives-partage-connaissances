@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Structurer ses données sous forme tabulaire avec Airtable</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Antoine Blanchard" />
+    <script src="Structurer-donnees-tabulaires-Airtable_files/header-attrs-2.19/header-attrs.js"></script>
+    <link href="Structurer-donnees-tabulaires-Airtable_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="Structurer-donnees-tabulaires-Airtable_files/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="Structurer-donnees-tabulaires-Airtable_files/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Structurer ses données sous forme tabulaire avec Airtable
+]
+.subtitle[
+## BUT3A Infonum – UE “Pratiques collaboratives et partage de connaissances”
+]
+.author[
+### Antoine Blanchard
+]
+.date[
+### Décembre 2023
+]
+
+---
+
+class: inverse, mline, center, middle
+
+# Introduction aux données structurées
+---
+class: clear
+
+## Obsidian (avec Dataview) et Notion permettent de manipuler des données structurées
+&lt;br /&gt;
+&lt;br /&gt;
+* une note = un objet
+* une propriété = un attribut
+* une observation = une métadonnée
+
+tout en conservant des fonctionnalités de traitement de texte.
+
+C'est un bon compromis !
+
+---
+class: clear
+
+## D'autres outils sont dédiés à la gestion des données tabulaires
+&lt;br /&gt;
+&lt;br /&gt;
+* Excel, Google Spreadsheet et autres tableurs
+* les systèmes de gestion de bases de données relationnelles (SGBD) : SQL, Access…
+* Airtable, qui est à mi-chemin entre le tableur et les bases de données
+&lt;br /&gt;
+&lt;br /&gt;
+Ils sont beaucoup plus puissants et performants sur ces données tabulaires !
+
+---
+class: clear
+
+## Quand utiliser Airtable ?
+
+&lt;blockquote&gt;"Si vous utilisez un tableur pour autre chose que des calculs numériques, ce tableur devrait être un Airtable" - mot d'ordre fondateur d'Airtable&lt;/blockquote&gt;
+
+&gt; "Les tableurs sont vraiment optimisés pour l'analyse numérique et les calculs financiers. Cependant, près de 90 % des tableurs n'ont pas de formules. La plupart sont utilisés à des fins d'organisation."
+
+.center[&lt;img src="img/Daniel-meme-Airtable.png" width="500"&gt;]
+
+---
+class: clear
+
+## Airtable est un outil puissant
+&lt;br /&gt;
+&lt;br /&gt;
+* outil payant dans le cloud (SaaS)
+* pas d'accès aux fichiers source
+* collaboratif
+* des modèles (*templates*) pour se faciliter la vie
+* convient à de très nombreux usages
+* 750 millions d'utilisateurs actifs en 2021 ([source](https://www.toplyne.io/blog/heir-to-the-tables-the-airtable-story))
+
+---
+class: clear
+
+## On s'y met ? À la découverte de Notion !
+
+https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
+
+???
+
+Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter.
+
+---
+class: clear
+
+## Limites de Notion : la vie privée
+&lt;br /&gt;
+Anytype propose une autre vision :
+
+&gt; Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust. ([source](https://anytype.io/why/mission/))
+
+Anytype est un logiciel libre développé par une association basée en Suisse.
+
+--
+
+Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
+
+???
+
+All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+
+---
+class: clear
+
+## Anytype en vidéo
+&lt;br /&gt;
+&lt;br /&gt;
+.center[&lt;iframe title="vimeo-player" src="https://player.vimeo.com/video/848056412?h=7ee3b08a5c" width="640" height="360" frameborder="0"    allowfullscreen&gt;&lt;/iframe&gt;]
+
+---
+class: clear
+
+## On s'y met ? À la découverte d'Anytype !
+
+#### 1. Installer Anytype
+* télécharger Anytype sur https://download.anytype.io/
+* installer le logiciel et le lancer
+* créer un compte et le sécuriser avec une phrase de récupération (à conserver confidentiellement et précieusement)
+
+--
+
+#### 2. Créer une note sur votre rapport au numérique collaboratif
+
+* cliquer sur l'icône &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; puis sur le bouton `Page`
+* recopier vos réponses au questionnaire de la 1&lt;sup&gt;e&lt;/sup&gt; séance : https://s.42l.fr/mon-rapport
+* enjoliver votre note
+
+--
+
+#### 3. Importer votre fiche de lecture depuis Notion
+
+* dans Notion, aller sur votre fiche de lecture et sélectionner le menu &lt;svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z"&gt;&lt;/path&gt;&lt;/svg&gt; &gt; `Exporter` &gt; `Exporter`
+* dans Anytype, aller dans le menu `Anytype` &gt; `Space Settings` &gt; `Import to space` &gt; &lt;svg viewBox="0 0 640 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M593.8 59.1H46.2C20.7 59.1 0 79.8 0 105.2v301.5c0 25.5 20.7 46.2 46.2 46.2h547.7c25.5 0 46.2-20.7 46.1-46.1V105.2c0-25.4-20.7-46.1-46.2-46.1zM338.5 360.6H277v-120l-61.5 76.9-61.5-76.9v120H92.3V151.4h61.5l61.5 76.9 61.5-76.9h61.5v209.2zm135.3 3.1L381.5 256H443V151.4h61.5V256H566z"&gt;&lt;/path&gt;&lt;/svg&gt; `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+
+---
+class: clear
+
+## Bilan de l'activité
+
+Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
+
+???
+
+Ergonomique, agréable…
+
+---
+class: clear
+
+## Révisez ces cours pour la prochaine fois
+
+Je vous interrogerai par un quiz noté !
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "4:3"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
