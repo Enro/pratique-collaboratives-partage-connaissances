@@ -30,7 +30,7 @@ Prise de notes programmables et gestion des connaissances individuelles avec Obs
 
 **Mercredi 6 décembre: 13h30-17H30**
 
-Aller plus loin dans les notes programmables avec Notion, qui apporte une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
+Aller plus loin dans les notes programmables avec Notion, qui apporte une grande ergonomie et une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
 * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Notion.html)
 
