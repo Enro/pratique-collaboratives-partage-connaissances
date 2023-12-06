@@ -68,7 +68,7 @@ class: clear
 ---
 class: clear
 
-## On s'y met ? À la découverte de Notion !
+## On s'y met ? À la découverte d'Airtable !
 
 https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
 
