@@ -36,10 +36,9 @@ class: clear
 
 ## Obsidian (avec Dataview) et Notion permettent de manipuler des données structurées
 &lt;br /&gt;
-&lt;br /&gt;
+
 * une note = un objet
-* une propriété = un attribut
-* une observation = une métadonnée
+* une propriété = un attribut = une métadonnée
 
 tout en conservant des fonctionnalités de traitement de texte.
 
@@ -50,22 +49,23 @@ class: clear
 
 ## D'autres outils sont dédiés à la gestion des données tabulaires
 &lt;br /&gt;
-&lt;br /&gt;
+
 * Excel, Google Spreadsheet et autres tableurs
 * les systèmes de gestion de bases de données relationnelles (SGBD) : SQL, Access…
 * Airtable, qui est à mi-chemin entre le tableur et les bases de données
 &lt;br /&gt;
 &lt;br /&gt;
-Ils sont beaucoup plus puissants et performants sur ces données tabulaires !
+
+Ils sont beaucoup plus puissants et performants sur les données tabulaires !
 
 ---
 class: clear
 
 ## Quand utiliser Airtable ?
 
-&lt;blockquote&gt;"Si vous utilisez un tableur pour autre chose que des calculs numériques, ce tableur devrait être un Airtable" - mot d'ordre fondateur d'Airtable&lt;/blockquote&gt;
-
 &gt; "Les tableurs sont vraiment optimisés pour l'analyse numérique et les calculs financiers. Cependant, près de 90 % des tableurs n'ont pas de formules. La plupart sont utilisés à des fins d'organisation."
+
+&lt;blockquote&gt;"Si vous utilisez un tableur pour autre chose que des calculs numériques, ce tableur devrait être un Airtable" - le fondateur d'Airtable&lt;/blockquote&gt;
 
 .center[&lt;img src="img/Daniel-meme-Airtable.png" width="500"&gt;]
 
@@ -82,86 +82,334 @@ class: clear
 * convient à de très nombreux usages
 * 750 millions d'utilisateurs actifs en 2021 ([source](https://www.toplyne.io/blog/heir-to-the-tables-the-airtable-story))
 
+
+???
+
+Contre 20 M d'utilisateurs pour Notion et 1M pour Obsidian.
+
 ---
 class: clear
 
 ## On s'y met ? À la découverte d'Airtable !
+&lt;br /&gt;
+&lt;br /&gt;
 
-https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
+Se connecter sur https://s.42l.fr/airtable
 
 ???
 
-Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter.
+Utilisation du forfait Team gratuit pendant les 14 premiers jours (compte créé avec l'adresse email IUT Bordeaux Montaigne)
 
 ---
 class: clear
 
-## Limites de Notion : la vie privée
+## Quelques notion de vocabulaire 
 &lt;br /&gt;
-Anytype propose une autre vision :
+&lt;br /&gt;
+L'**espace de travail** regroupe des bases qui ont une cohérence entre elles (même sujet, même collaborateurs, même formule d'abonnement…).
 
-&gt; Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust. ([source](https://anytype.io/why/mission/))
+Une **base** est un ensemble cohérent de tables dont vous allez définir la structure et le contenu. 
 
-Anytype est un logiciel libre développé par une association basée en Suisse.
+Une **table** contient des enregistrements décrits par un ensemble de champs.
 
---
+Une **vue** est une table virtuelle qui affiche le contenu de vos tables en fonction de votre requête.
 
-Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
+---
+class: clear
+
+## On peut créer une base…
+&lt;br /&gt;
+&lt;br /&gt;
+* à partir de modèles 
+* en suivant un guide pas à pas
+* en chargeant un fichier Excel
+* en démarrant de zéro
+
+---
+class: clear
+
+## Exemple de base
+
+.center[&lt;img src="img/Learning_Path_GIF_6.3.gif" /&gt;]
+
+---
+class: clear
+
+## Exercice : votre première base
+
+Exercice emprunté à Samuel Goëta (Datactivist / Sciences Po Aix).
+
+#### 1. Retournez à l'accueil https://airtable.com et cliquez sur &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
+
+Cette base va vous permettre d'organiser vos repas et vos courses. Quelle devra être la structure de la base ?
 
 ???
 
-All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+Quelles informations, structurées et reliées comment ?
 
 ---
 class: clear
 
-## Anytype en vidéo
-&lt;br /&gt;
-&lt;br /&gt;
-.center[&lt;iframe title="vimeo-player" src="https://player.vimeo.com/video/848056412?h=7ee3b08a5c" width="640" height="360" frameborder="0"    allowfullscreen&gt;&lt;/iframe&gt;]
+## Votre première table
 
----
-class: clear
+Une table (ou *tableau*) contient une liste d’objets homogènes. Il faut créer une table pour chaque objet que vous avez besoin d’organiser.
 
-## On s'y met ? À la découverte d'Anytype !
+#### 2. Renommez la première table en "Menus"
 
-#### 1. Installer Anytype
-* télécharger Anytype sur https://download.anytype.io/
-* installer le logiciel et le lancer
-* créer un compte et le sécuriser avec une phrase de récupération (à conserver confidentiellement et précieusement)
+Supprimez les colonnes existantes.
 
---
+L'objet de cette table sera donc des menus.
 
-#### 2. Créer une note sur votre rapport au numérique collaboratif
+#### 3. Configurez la table "Menus" avec les champs suivants (attention aux types de champs) : 
+* "Début de la semaine" de type `Date` : ce sera votre premier champ, c'est un *champ principal* c'est-à-dire l'identifiant de l'enregistrement
+* "Fin de la semaine" de type `Date`
+* "Recettes" de type `Lier à une autre entrée` &gt; `Créer un tableau`
+* "Menu de la semaine" de type `Case à cocher`
 
-* cliquer sur l'icône &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; puis sur le bouton `Page`
-* recopier vos réponses au questionnaire de la 1&lt;sup&gt;e&lt;/sup&gt; séance : https://s.42l.fr/mon-rapport
-* enjoliver votre note
-
---
-
-#### 3. Importer votre fiche de lecture depuis Notion
-
-* dans Notion, aller sur votre fiche de lecture et sélectionner le menu &lt;svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z"&gt;&lt;/path&gt;&lt;/svg&gt; &gt; `Exporter` &gt; `Exporter`
-* dans Anytype, aller dans le menu `Anytype` &gt; `Space Settings` &gt; `Import to space` &gt; &lt;svg viewBox="0 0 640 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M593.8 59.1H46.2C20.7 59.1 0 79.8 0 105.2v301.5c0 25.5 20.7 46.2 46.2 46.2h547.7c25.5 0 46.2-20.7 46.1-46.1V105.2c0-25.4-20.7-46.1-46.2-46.1zM338.5 360.6H277v-120l-61.5 76.9-61.5-76.9v120H92.3V151.4h61.5l61.5 76.9 61.5-76.9h61.5v209.2zm135.3 3.1L381.5 256H443V151.4h61.5V256H566z"&gt;&lt;/path&gt;&lt;/svg&gt; `Markdown` et sélectionner le fichier Zip exporté depuis Notion
-
----
-class: clear
-
-## Bilan de l'activité
-
-Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
+La force d'Airtable réside dans le choix du type qui va permettre à Airtable de traiter correctement l'information qu'il contient. Heureusement, le type peut être modifié à tout moment.
 
 ???
 
-Ergonomique, agréable…
+Demander aux étudiants d'expliquer dans un langage simple ce qu'ils ont fait et compris.
 
 ---
 class: clear
 
-## Révisez ces cours pour la prochaine fois
+## Autres tables reliées à la première table
 
-Je vous interrogerai par un quiz noté !
+#### 4. Configurez la table "Recettes" avec les champs suivants : 
+* "Nom" de la recette
+* "Menu de la semaine" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+* "Quantité ingrédients" de type `Lier à une autre entrée` &gt; `Créer un tableau`
+* "Photo de la recette" de type `Pièce jointe`
+
+???
+
+Problème à corriger avec la table Recettes : le champ Menu de la semaine ne fonctionne pas.
+
+Type Recherche = Consultez les valeurs d’un champ dans une entrée liée
+
+Type Lier à une autre entrée = Lier vers les entrées du tableau Truc
+
+---
+class: clear
+
+#### 5. Configurez la table "Quantité ingrédients" avec les champs suivants :
+* "Résumé" de type `Numéro automatique` (pour l'instant)
+* "Quantité" de type `Numéro`
+* "Unité" de type `Sélection unique` (vous entrerez les options ensuite)
+* "Ingrédient" de type `Lier à une autre entrée` &gt; `Créer un tableau`
+* "Menu de la semaine ?" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+
+#### 6. Configurez le champ "Résumé" pour afficher la quantité de chaque ingrédient (par exemple : "80 gr. potiron") : il va falloir appeler et combiner différents champs
+* changez le type du champs "Résumé" en `Formule`
+* dans la formule, sélectionnez le champ "Quantité"
+* ajoutez un espace en ajoutant `&amp; " " &amp;` dans la formule
+* ajoutez le champ "Unité"
+* ajoutez un espace avec le prochain champ en ajoutant `&amp; " " &amp;` dans la formule
+* ajoutez le champ "Ingrédient"
+
+???
+
+Menu de la semaine ne fonctionne pas, il ne propose pas la table "Menus" : à tester.
+
+---
+class: clear
+
+#### 7. Configurez la table "Ingrédients" avec les champs suivants : 
+- "Nom de l'ingrédient" de type `Texte sur une seule ligne`
+- "Photo" de type `Pièce jointe`
+- "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
+- "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine"
+
+--
+
+#### 8. Remplissez les différentes tables en commençant par "Recettes". Pour chaque recette vous devrez compléter les tables "Ingrédients" et "Quantité ingrédients". Puis vous pourrez composer des "Menus".
+
+Les données de chaque table doivent être **structurées**. Contrairement à une feuille de calcul Excel, on ne peut pas ajouter ce qu'on veut dans une cellule. Les cellules ne peuvent contenir que des informations du type défini en colonne.
+
+Ce qui signifie :
+* pas de mise en forme fantaisiste
+* pas de somme au milieu de nulle part
+* …
+
+---
+class: clear
+
+#### 9. Dans la table `Ingrédients` et dans la barre latérale `Vues`, créez une vue `Tableur` intitulée "Les ingrédients de la semaine" en n'affichant que les champs suivants (fonction &lt;svg viewBox="0 0 640 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M634 471L36 3.51A16 16 0 0 0 13.51 6l-10 12.49A16 16 0 0 0 6 41l598 467.49a16 16 0 0 0 22.49-2.49l10-12.49A16 16 0 0 0 634 471zM296.79 146.47l134.79 105.38C429.36 191.91 380.48 144 320 144a112.26 112.26 0 0 0-23.21 2.47zm46.42 219.07L208.42 260.16C210.65 320.09 259.53 368 320 368a113 113 0 0 0 23.21-2.46zM320 112c98.65 0 189.09 55 237.93 144a285.53 285.53 0 0 1-44 60.2l37.74 29.5a333.7 333.7 0 0 0 52.9-75.11 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64c-36.7 0-71.71 7-104.63 18.81l46.41 36.29c18.94-4.3 38.34-7.1 58.22-7.1zm0 288c-98.65 0-189.08-55-237.93-144a285.47 285.47 0 0 1 44.05-60.19l-37.74-29.5a333.6 333.6 0 0 0-52.89 75.1 32.35 32.35 0 0 0 0 29.19C89.72 376.41 197.08 448 320 448c36.7 0 71.71-7.05 104.63-18.81l-46.41-36.28C359.28 397.2 339.89 400 320 400z"&gt;&lt;/path&gt;&lt;/svg&gt; `Masquer le champ`), en filtrant uniquement les recettes actives et en groupant par "Où acheter ?"
+&lt;br /&gt;
+
+.center[&lt;img src="img/Airtable.png" width="400"&gt;]
+
+???
+
+NB Comme on n'avait pas les bons champs de type `Recherche` il n'y avait pas de champ à masque et il n'était pas possible de filtrer les recettes actives.
+
+Comment iriez-vous faire les courses ?
+
+S'il reste du temps créer une vue Formulaire.
+
+---
+class: clear
+
+## Une base Airtable de la promo 2020/2021 de la Licence professionnelle Médiations de l’information numérique et des données (LP MIND)
+
+[.center[&lt;img src="img/Airtable_annotation_dgf.png" width="600"&gt;]](https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR)
+
+Jeu de données publié sur https://www.data.gouv.fr/fr/datasets/annotation-des-discussions-publiees-sur-data-gouv-fr/ et qui a eu les honneurs de la comm' de data.gouv.fr&amp;nbsp;: https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/
+
+
+???
+
+Source : https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR
+
+---
+class: clear
+
+## Activité : les insolites de data.gouv.fr
+
+Vous devez écumer le site data.gouv.fr pour identifier des informations insolites à partir de jeux de données en open data.
+
+Voici les informations qui m'intéressent :
+* Fait insolite
+* URL du jeu de données
+* Mots-clés
+
+Créez une seule base Airtable et renseignez la de façon collaborative.
+
+--
+
+Par exemple :
+* il y a eu 29 278 771€ de dépenses en « produits contre la dysfonction érectile » en Île-de-France en 2013
+* il existe une seule femme chirurgien urologue de moins de 30 ans
+* il y a plus d’agents cynophiles (309) que de chiens (278) dans la police municipale en France
+* le prénom Marie-Christophe est porté par deux femmes conseillères municipales.
+
+???
+
+Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
+
+Cf. https://airtable.com/appB1cL7jM2YmlRcc/shrdAS7GZV8bYib12/tblERR1IoRz4ica5L et https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/
+
+---
+class: clear
+
+## Examen sur table 
+
+Sans ordinateur et sans support, répondez au quiz en 15 minutes.
+
+---
+class: clear 
+
+## Airtable permet d'organiser des données textuelles
+&lt;br /&gt;
+&lt;br /&gt;
+Imaginez que vous devez rédiger un texte fortement structuré et hiérarchisé. Le faire sous Airtable permet :
+* d'organiser et réorganiser la structure du texte
+* de garder la trace de chaque version de chaque paragraphe
+* de capitaliser sur ce travail sans limitation.
+&lt;br /&gt;
+
+Exemple : rédaction d'un document stratégique de type feuille de route, suivie de la rédaction du plan d'action opérationnel.
+
+---
+class: clear
+
+## Activité : feuille de route science ouverte de l'IRD
+
+#### 1. Retournez à l'accueil https://airtable.com et cliquez sur &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; `Démarrer de zéro` puis donnez à votre base le nom `IRD MonPrénom`
+
+#### 2. Renommez la première table en "Feuille de route"
+
+Supprimez les colonnes existantes.
+
+#### 3. Copiez sous forme tabulaire la feuille de route science ouverte de l'IRD
+
+La feuille de route est disponible sur https://s.42l.fr/fdr_ird
+
+Vous devrez créer les bons champs pour stocker et organiser toute l'information de la feuille de route.
+
+---
+class: clear
+
+## Corrigé
+
+.center[![](img/Airtable_fdr_ird.png)]
+
+???
+
+https://airtable.com/appxyZfJw3qzR7qVn/shrK75V6yGjtPD33t
+
+Ne pas parler du Statut à ce stade, le garder pour la suite (le formulaire).
+
+---
+class: clear
+
+## Création de vues
+&lt;br /&gt;
+
+#### 4. Dans le menu `Vues`, créez une vue tableur pour n'afficher que les objectifs de la thématique 1
+&lt;br /&gt;
+&lt;br /&gt;
+
+#### 5. Créez une autre vue pour n'afficher que les objectifs de la thématique 2
+
+---
+class: clear
+
+## Formulaire pour collecter de nouvelles propositions d'objectifs
+&lt;br /&gt;
+
+#### 6. Dans le menu `Vues`, créez un formulaire et paramétrez-le
+
+???
+
+Corrigé : https://airtable.com/appxyZfJw3qzR7qVn/shrTmg1O7VB7PyMvo
+
+Idée : ajouter un champ "Statut" pour savoir quels objectifs doivent être revus.
+
+---
+class: clear
+
+## Plan d'action science ouverte de l'IRD
+&lt;br /&gt;
+
+#### 7. Créez une nouvelle table "Plan d'action"
+&lt;br /&gt;
+
+#### 8. Copiez sous forme tabulaire le plan d'action science ouverte de l'IRD
+
+Le plan d'action est disponible sur https://s.42l.fr/pa_ird
+
+N'hésitez pas à utiliser des champs liés à la première table.
+
+---
+class: clear
+
+## Corrigé
+&lt;br /&gt;
+
+.center[![](img/Airtable_pa_ird.png)]
+
+???
+
+https://airtable.com/appxyZfJw3qzR7qVn/shrK75V6yGjtPD33t
+
+---
+class: clear
+
+## Bilan tête - main - cœur
+&lt;br /&gt;
+&lt;br /&gt;
+Qu'avez-vous appris ?
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Qu'avez-vous fait ?
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Qu'avez-vous aimé ?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
