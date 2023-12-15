@@ -47,3 +47,5 @@ Structurer ses données sous forme tabulaire avec Airtable : exemple de données
 Contrôle des connaissances
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple d'informations textuelles.
+
+* [support de présentation](Structurer-donnees-tabulaires-Airtable.html)
