@@ -1,4 +1,4 @@
-# Cours "Pratiques collaboratives et partage de connaissances" du BUT Infonum (2023-2024)
+# Cours "Pratiques collaboratives et partage de connaissances" du BUT Infonum (2024-2025)
 
 Cours donné en 3e année du BUT Information numérique dans les organisations (Université Bordeaux Montaigne)
 
@@ -10,7 +10,7 @@ Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développ
 
 ### Session n° 1
 
-**Mercredi 18 octobre : 13h30-17h30**
+**Jeudi 26 septembre : 13h30-17h30**
 
 Intérêt de décloisonner l'information dans les organisations. S'inspirer des méthodes de "corporate hacking". Retour d'expérience : outil Basecamp.
 
@@ -18,17 +18,17 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 ### Session n° 2
 
-**Mardi 7 novembre : 13h30-17H30**
+**Lundi 7 octobre : 13h30-17H30**
 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
 * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html)
 * [tutoriel Dataview](Tutoriel-Dataview.html)
-* [exercices Dataview avec correction](Coffre%20Obsidian/Exercices%20corrigés%20Dataview.pdf)
+* [exercices Dataview](Coffre%20Obsidian/Exercices%20Dataview.pdf)
 
 ### Session n° 3
 
-**Mercredi 6 décembre: 13h30-17H30**
+**Lundi 14 octobre : 13h30-17H30**
 
 Aller plus loin dans les notes programmables avec Notion, qui apporte une grande ergonomie et une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
@@ -36,13 +36,13 @@ Aller plus loin dans les notes programmables avec Notion, qui apporte une grande
 
 ### Session n° 4
 
-**Vendredi 15 décembre: 8h30-12H30**
+**Lundi 4 novembre : 13h30-17H30**
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple de données nativement tabulaires.
 
 ### Session n° 5
 
-**Vendredi 15 décembre: 13h30-17H30**
+**Mardi 5 novembre : 13h30-17H30**
 
 Contrôle des connaissances
 
