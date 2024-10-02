@@ -2,7 +2,7 @@
 title: Gestion du travail et des connaissances individuelles avec Obsidian
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Novembre 2023"
+date: "Octobre 2024"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -117,7 +117,7 @@ class: clear
 ## L'outil idéal
 Des notes :
 - granulaires (méthode Zettelkasten)
-- reliées et formant un graphe
+- reliées et formant un graphe (= réseau)
 - possédant des métadonnées
 - requêtables
 <br />
@@ -191,7 +191,7 @@ Obsidian est disponible pour Mac, Windows, Linux, iOS et Android.
 
 Obsidian est utilisé par une communauté très active qui développe de nombreux thèmes et extensions. Et revendique 1M d'utilisateurs ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps)) !
 
-Vous pouvez retrouver Obsidian, Zettlr, Notion… dans ce tableau : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tableau%20des%20outils%20pour%20markdown.md 
+Vous pouvez retrouver Obsidian, Zettlr, Notion… dans ce tableau : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tableau%20des%20outils%20pour%20markdown.md
 
 ---
 class: clear
@@ -241,10 +241,10 @@ class: clear
 
 --
 
-#### 5. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Tutoriel%20Markdown.md
+#### 5. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
 
 --
-#### 6. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Add file property`. 
+#### 6. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Ajouter des propriétés de fichier`. 
 
 ???
 

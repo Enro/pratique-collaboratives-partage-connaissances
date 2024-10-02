@@ -452,6 +452,10 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 
 1. Créez un check-in automatique
 
+???
+
+Projet > Set-up tools > Automatic check-in
+
 ---
 class: clear
 
