@@ -228,23 +228,26 @@ class: clear
 #### 2. Lancer Obsidian et créer un nouveau coffre dans un dossier de votre ordinateur
 
 --
-#### 3. Créer trois dossiers dans Obsidian :
+#### 3. Si nécessaire, régler l'interface en français dans `r icons::fontawesome("cog")` `Settings` > `General` > `Language` 
+
+--
+#### 4. Créer trois dossiers dans Obsidian :
 * Images
 * Modèles
 * Notes
 
 --
 
-#### 4. Créer deux notes dans le dossier Notes :
+#### 5. Créer deux notes dans le dossier Notes :
 * Basecamp
 * Obsidian
 
 --
 
-#### 5. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
+#### 6. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier Le Deuff : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
 
 --
-#### 6. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Ajouter des propriétés de fichier`. 
+#### 7. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Ajouter des propriétés de fichier`. 
 
 ???
 

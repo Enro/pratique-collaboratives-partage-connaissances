@@ -6,11 +6,12 @@ Vous pouvez vous aider de https://s-blu.github.io/basic-dataview-query-builder/ 
 
 ## Installer le module Dataview
 
-Aller dans `Paramètres` > `Modules complémentaires` > `Activer les modules complémentaires` (si c'est la première fois que vous installez un module communautaire) >  `Parcourir` > chercher `Dataview` et cliquer sur `Installer` > cliquer sur `Activer`.
+Aller dans `r icons::fontawesome("cog")` `Paramètres` > `Modules complémentaires` > `Activer les modules complémentaires` (si c'est la première fois que vous installez un module communautaire) >  `Parcourir` > chercher `Dataview` et cliquer sur `Installer` > cliquer sur `Activer`.
 
 ## Types d'informations que l'on peut requêter 
 
 Les requêtes Dataview peuvent porter sur :
+
 * les propriétés (en-tête YAML)
 * les tâches 
 * les items en listes
@@ -105,7 +106,7 @@ WHERE file.mtime >= date(today) - dur(1 week)
 ```
 ````
 
-exclut les fichier qui n'ont pas été modifiés dans la semaine écoulée (littéralement : la requête ne garde que les fichiers dont la dernière modification est postérieure à la date du jour moins 1 semaine sont conservés).
+exclut les fichier qui n'ont pas été modifiés dans la semaine écoulée (littéralement : la requête ne garde que les fichiers dont la dernière modification est postérieure à la date du jour moins 1 semaine).
 
 Toutes les options permettant de manier les dates et les durées sont décrites dans [la documentation Dataview](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates).
 
@@ -116,6 +117,7 @@ Pour n'afficher que les 5, 10, 20 premiers résultats, il est possible d'utilise
 ## Choisir ce qu'on veut afficher
 
 L'affichage des résultats peut prendre quatre formes :
+
 * une liste 
 * un tableau 
 * une liste de tâches 

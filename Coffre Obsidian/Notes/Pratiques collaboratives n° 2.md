@@ -1,12 +1,15 @@
 ---
-Date: 2023-11-07
+Date: 2024-10-07
 tags:
   - cours
 Enseignant: Antoine Blanchard
 UE: Pratiques collaboratives et gestion des connaissances
 ---
 > [!info] Support de cours
-> 
+> https://enro.github.io/pratiques-collaboratives-partage-connaissances/Notes-programmables-gestion-connaissances-personnelles-Obsidian.html
+
+> [!tip] tutoriel Dataview
+> https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-Dataview.html
 
 # À retenir
 - Prise de notes et gestion des connaissances individuelles avec Obsidian. 
