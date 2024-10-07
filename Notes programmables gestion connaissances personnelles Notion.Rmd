@@ -2,7 +2,7 @@
 title: Gestion du travail et des connaissances individuelles avec Notion
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Décembre 2023"
+date: "Octobre 2024"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]

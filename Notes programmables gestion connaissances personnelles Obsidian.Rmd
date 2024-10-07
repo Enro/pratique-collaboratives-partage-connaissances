@@ -244,7 +244,7 @@ class: clear
 
 --
 
-#### 6. Compléter ces notes en rédigeant quelques lignes sur chacun de ces logiciels. La .inverse[syntaxe markdown] est un langage de balisage léger – voir le tuto préparé par Olivier Le Deuff : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
+#### 6. Compléter ces notes en rédigeant quelques lignes en .inverse[syntaxe markdown] sur chacun de ces logiciels – voir le tuto préparé par Olivier Le Deuff : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
 
 --
 #### 7. Ajouter un tag sur ces deux notes en cliquant sur `r icons::fontawesome("ellipsis-h")` `Ajouter des propriétés de fichier`. 
@@ -260,7 +260,7 @@ class: clear
 
 ## Aller plus loin avec les modèles (*templates*)
 
-1. Aller dans `r icons::fontawesome("cog")` `Paramètres` > `Modules principaux` > activer le module `Modèles` `r icons::fontawesome("toggle-on")` > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
+1. Aller dans `r icons::fontawesome("cog")` `Paramètres` > `Modules principaux` > vérifier que le module `Modèles` `r icons::fontawesome("toggle-on")` est activé > cliquer sur `r icons::fontawesome("cog")` pour accéder aux options > définir l'emplacement du dossier modèles comme `Modèles`.
 
 --
 2. Télécharger ces trois modèles à placer dans le dossier `Modèles` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Modèles](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Modèles)
