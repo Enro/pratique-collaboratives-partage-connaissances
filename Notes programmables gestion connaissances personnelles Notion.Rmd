@@ -63,7 +63,7 @@ class: clear
 
 ## On s'y met ? À la découverte de Notion !
 
-https://www.notion.so/but-infonum/Accueil-0d82172e67704d5eae9fcc0a387329d3
+https://www.notion.so/but-infonum/Accueil-11a056bf9f7580bbaa6fde3d2086a389
 
 ???
 
@@ -90,7 +90,7 @@ Anytype est un logiciel libre développé par une association basée en Suisse.
 
 --
 
-Avec Anytype, vos données sont cryptées et synchronisées. Les futures versions d'Anytype permettront de collaborer, et de publier ses notes.
+Avec Anytype, vos données sont cryptées et synchronisées. Vous choisissez avec qui collaborer sur vos notes, et si vous voulez les publier.
 
 ???
 
@@ -118,7 +118,7 @@ class: clear
 
 #### 2. Créer une note sur votre rapport au numérique collaboratif
 
-* cliquer sur l'icône `r icons::fontawesome("plus")` puis sur le bouton `Page`
+* faire clic-droit sur l'icône `r icons::fontawesome("plus")` en bas de page puis choisir l'option `Page`
 * recopier vos réponses au questionnaire de la 1<sup>e</sup> séance : https://s.42l.fr/mon-rapport
 * enjoliver votre note
 
@@ -127,7 +127,7 @@ class: clear
 #### 3. Importer votre fiche de lecture depuis Notion
 
 * dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
-* dans Anytype, aller dans le menu `Anytype` > `Space Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+* dans Anytype, aller dans le menu `Anytype` > `Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
 
 ???
 
@@ -147,6 +147,6 @@ Ergonomique, agréable…
 ---
 class: clear
 
-## Révisez ces cours pour la prochaine fois
+## Révisez pour le dernier cours
 
 Je vous interrogerai par un quiz noté !
