@@ -13,6 +13,14 @@ output:
 ---
 class: clear
 
+## Rappel des épisodes précédents
+
+https://enro.github.io/pratiques-collaboratives-partage-connaissances/
+
+
+---
+class: clear
+
 ## Petit échauffement
 <br />
 <br />
@@ -24,7 +32,7 @@ Vous avez un RDV avec votre collègue Nadia dans 3 semaines. Vous avez mis du te
 
 ???
 
-Interroger quelques étudiants au hasard du trombinoscope.
+Réfléchir ensemble aux solutions : feuille volante, cahier, Google Drive, Obsidian
 
 ---
 class: inverse, mline, center, middle
@@ -69,7 +77,7 @@ https://www.notion.so/but-infonum/Accueil-11a056bf9f7580bbaa6fde3d2086a389
 
 Créer l'ensemble de l'activité un espace d'équipe dédié BUT3 Infonum.
 
-Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter.
+Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter (avec les droits "Accès complet")
 
 Après 1h : ils ont lu leur texte
 Pause de 15'
@@ -127,7 +135,7 @@ class: clear
 #### 3. Importer votre fiche de lecture depuis Notion
 
 * dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
-* dans Anytype, aller dans le menu `Anytype` > `Settings` > `Import to space` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+* dans Anytype, aller dans le menu `Anytype` > `Paramètres` > `Importer dans l'espace` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
 
 ???
 
