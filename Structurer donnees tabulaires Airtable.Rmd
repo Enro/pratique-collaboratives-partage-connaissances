@@ -2,7 +2,7 @@
 title: Structurer ses données sous forme tabulaire avec Airtable
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Décembre 2023"
+date: "Novembre 2024"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -17,7 +17,7 @@ class: inverse, mline, center, middle
 ---
 class: clear
 
-## Obsidian (avec Dataview) et Notion permettent de manipuler des données structurées
+## Obsidian (avec Dataview) et Notion / Anytype permettent de manipuler des données structurées
 <br />
 
 * une note = un objet
@@ -77,11 +77,11 @@ class: clear
 <br />
 <br />
 
-Se connecter sur https://s.42l.fr/airtable
+Se connecter sur https://s.42l.fr/airtable_2024
 
 ???
 
-Utilisation du forfait Team gratuit pendant les 14 premiers jours (compte créé avec l'adresse email IUT Bordeaux Montaigne)
+Utilisation du forfait gratuit (compte créé avec l'adresse email IUT Bordeaux Montaigne). Les étudiants sont invités par le lien de recommandation https://airtable.com/invite/r/dti4Q4yj mais pas sur l'espace de travail collaboratif.
 
 ---
 class: clear
@@ -122,7 +122,7 @@ class: clear
 
 Exercice emprunté à Samuel Goëta (Datactivist / Sciences Po Aix).
 
-#### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
+#### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Créer` > `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
 
 Cette base va vous permettre d'organiser vos repas et vos courses. Quelle devra être la structure de la base ?
 
@@ -273,6 +273,23 @@ Par exemple :
 Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
 
 Cf. https://airtable.com/appB1cL7jM2YmlRcc/shrdAS7GZV8bYib12/tblERR1IoRz4ica5L et https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/
+
+
+---
+class: clear
+
+## Bilan tête - main - cœur
+<br />
+<br />
+Qu'avez-vous appris ?
+<br />
+<br />
+<br />
+Qu'avez-vous fait ?
+<br />
+<br />
+<br />
+Qu'avez-vous aimé ?
 
 ---
 class: clear
