@@ -124,7 +124,7 @@ Exercice emprunté à Samuel Goëta (Datactivist / Sciences Po Aix).
 
 #### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Créer` > `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
 
-Cette base va vous permettre d'organiser vos repas et vos courses. Quelle devra être la structure de la base ?
+Cette base va vous permettre d'organiser vos menus de la semaine et vos courses. Quelle devra être la structure de la base ?
 
 ???
 
@@ -141,7 +141,7 @@ Une table (ou *tableau*) contient une liste d’objets homogènes. Il faut crée
 
 Supprimez les colonnes existantes.
 
-L'objet de cette table sera donc des menus.
+L'objet de cette table sera donc des menus pour une semaine.
 
 #### 3. Configurez la table "Menus" avec les champs suivants (attention aux types de champs) : 
 * "Début de la semaine" de type `Date` : ce sera votre premier champ, c'est un *champ principal* c'est-à-dire l'identifiant de l'enregistrement
@@ -160,29 +160,30 @@ class: clear
 
 ## Autres tables reliées à la première table
 
+La table "Recettes" vient d'être créée.
+
 #### 4. Configurez la table "Recettes" avec les champs suivants : 
-* "Nom" de la recette
-* "Menu de la semaine" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+* "Nom" 
+* "Menus" (déjà créés)
 * "Quantité ingrédients" de type `Lier à une autre entrée` > `Créer un tableau`
 * "Photo de la recette" de type `Pièce jointe`
+* "Menu de la semaine ?" de type `Recherche` : choisir la source "Menus" et le champ "Menu de la semaine"
 
 ???
 
-Problème à corriger avec la table Recettes : le champ Menu de la semaine ne fonctionne pas.
-
-Type Recherche = Consultez les valeurs d’un champ dans une entrée liée
-
-Type Lier à une autre entrée = Lier vers les entrées du tableau Truc
+Si le type Recherche ne fonctionne pas, créer le champ à la fin des étapes, ou bien le créer après avoir créé un champ de type "Lier à une autre entrée"
 
 ---
 class: clear
 
 #### 5. Configurez la table "Quantité ingrédients" avec les champs suivants :
 * "Résumé" de type `Numéro automatique` (pour l'instant)
+* "Recettes" (déjà créé)
 * "Quantité" de type `Numéro`
 * "Unité" de type `Sélection unique` (vous entrerez les options ensuite)
-* "Ingrédient" de type `Lier à une autre entrée` > `Créer un tableau`
-* "Menu de la semaine ?" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+* "Ingrédients" de type `Lier à une autre entrée` > `Créer un tableau`
+* "Menu de la semaine ?" de type `Recherche` : choisir la source "Recettes" et le champ "Menu de la semaine ?"
+
 
 #### 6. Configurez le champ "Résumé" pour afficher la quantité de chaque ingrédient (par exemple : "80 gr. potiron") : il va falloir appeler et combiner différents champs
 * changez le type du champs "Résumé" en `Formule`
@@ -190,22 +191,24 @@ class: clear
 * ajoutez un espace en ajoutant `& " " &` dans la formule
 * ajoutez le champ "Unité"
 * ajoutez un espace avec le prochain champ en ajoutant `& " " &` dans la formule
-* ajoutez le champ "Ingrédient"
+* ajoutez le champ "Ingrédients"
 
 ???
 
-Menu de la semaine ne fonctionne pas, il ne propose pas la table "Menus" : à tester.
+{Quantité}& " " &{Unité}& " " &{Ingrédients}
 
 ---
 class: clear
 
 #### 7. Configurez la table "Ingrédients" avec les champs suivants : 
-- "Nom de l'ingrédient" de type `Texte sur une seule ligne`
-- "Photo" de type `Pièce jointe`
-- "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
-- "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine"
+* "Nom de l'ingrédient" de type `Texte sur une seule ligne`
+* "Quantité ingrédients" (déjà créé)
+* "Photo" de type `Pièce jointe`
+* "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
+* "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine ?"
 
---
+---
+class: clear
 
 #### 8. Remplissez les différentes tables en commençant par "Recettes". Pour chaque recette vous devrez compléter les tables "Ingrédients" et "Quantité ingrédients". Puis vous pourrez composer des "Menus".
 
@@ -219,14 +222,12 @@ Ce qui signifie :
 ---
 class: clear
 
-#### 9. Dans la table `Ingrédients` et dans la barre latérale `Vues`, créez une vue `Tableur` intitulée "Les ingrédients de la semaine" en n'affichant que les champs suivants (fonction `r icons::fontawesome("eye-slash")` `Masquer le champ`), en filtrant uniquement les recettes actives et en groupant par "Où acheter ?"
+#### 9. Dans la table `Ingrédients` et dans la barre latérale `Vues`, créez une vue `Tableur` intitulée "Les ingrédients de la semaine" en n'affichant que les champs suivants (fonction `r icons::fontawesome("eye-slash")` `Masquer le champ`), en filtrant uniquement les recettes de la semaine et en groupant par "Où acheter ?"
 <br />
 
 .center[<img src="img/Airtable.png" width="400">]
 
 ???
-
-NB Comme on n'avait pas les bons champs de type `Recherche` il n'y avait pas de champ à masque et il n'était pas possible de filtrer les recettes actives.
 
 Comment iriez-vous faire les courses ?
 
@@ -315,9 +316,14 @@ Exemple : rédaction d'un document stratégique de type feuille de route, suivie
 ---
 class: clear
 
+
+
+---
+class: clear
+
 ## Activité : feuille de route science ouverte de l'IRD
 
-#### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Démarrer de zéro` puis donnez à votre base le nom `IRD MonPrénom`
+#### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Créer` > `Démarrer de zéro` puis donnez à votre base le nom `IRD MonPrénom`
 
 #### 2. Renommez la première table en "Feuille de route"
 

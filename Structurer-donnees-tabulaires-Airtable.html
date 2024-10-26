@@ -139,9 +139,9 @@ class: clear
 
 Exercice emprunté à Samuel Goëta (Datactivist / Sciences Po Aix).
 
-#### 1. Retournez à l'accueil https://airtable.com et cliquez sur &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
+#### 1. Retournez à l'accueil https://airtable.com et cliquez sur &lt;svg viewBox="0 0 448 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"&gt;&lt;/path&gt;&lt;/svg&gt; `Créer` &gt; `Démarrer de zéro` puis donnez à votre base le nom `Recettes MonPrénom`
 
-Cette base va vous permettre d'organiser vos repas et vos courses. Quelle devra être la structure de la base ?
+Cette base va vous permettre d'organiser vos menus de la semaine et vos courses. Quelle devra être la structure de la base ?
 
 ???
 
@@ -158,7 +158,7 @@ Une table (ou *tableau*) contient une liste d’objets homogènes. Il faut crée
 
 Supprimez les colonnes existantes.
 
-L'objet de cette table sera donc des menus.
+L'objet de cette table sera donc des menus pour une semaine.
 
 #### 3. Configurez la table "Menus" avec les champs suivants (attention aux types de champs) : 
 * "Début de la semaine" de type `Date` : ce sera votre premier champ, c'est un *champ principal* c'est-à-dire l'identifiant de l'enregistrement
@@ -177,29 +177,30 @@ class: clear
 
 ## Autres tables reliées à la première table
 
+La table "Recettes" vient d'être créée.
+
 #### 4. Configurez la table "Recettes" avec les champs suivants : 
-* "Nom" de la recette
-* "Menu de la semaine" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+* "Nom" 
+* "Menus" (déjà créés)
 * "Quantité ingrédients" de type `Lier à une autre entrée` &gt; `Créer un tableau`
 * "Photo de la recette" de type `Pièce jointe`
+* "Menu de la semaine ?" de type `Recherche` : choisir la source "Menus" et le champ "Menu de la semaine"
 
 ???
 
-Problème à corriger avec la table Recettes : le champ Menu de la semaine ne fonctionne pas.
-
-Type Recherche = Consultez les valeurs d’un champ dans une entrée liée
-
-Type Lier à une autre entrée = Lier vers les entrées du tableau Truc
+Si le type Recherche ne fonctionne pas, créer le champ à la fin des étapes, ou bien le créer après avoir créé un champ de type "Lier à une autre entrée"
 
 ---
 class: clear
 
 #### 5. Configurez la table "Quantité ingrédients" avec les champs suivants :
 * "Résumé" de type `Numéro automatique` (pour l'instant)
+* "Recettes" (déjà créé)
 * "Quantité" de type `Numéro`
 * "Unité" de type `Sélection unique` (vous entrerez les options ensuite)
-* "Ingrédient" de type `Lier à une autre entrée` &gt; `Créer un tableau`
-* "Menu de la semaine ?" de type `Recherche` : choisir la table "Menus" et le champ "Menu de la semaine"
+* "Ingrédients" de type `Lier à une autre entrée` &gt; `Créer un tableau`
+* "Menu de la semaine ?" de type `Recherche` : choisir la source "Recettes" et le champ "Menu de la semaine ?"
+
 
 #### 6. Configurez le champ "Résumé" pour afficher la quantité de chaque ingrédient (par exemple : "80 gr. potiron") : il va falloir appeler et combiner différents champs
 * changez le type du champs "Résumé" en `Formule`
@@ -207,22 +208,24 @@ class: clear
 * ajoutez un espace en ajoutant `&amp; " " &amp;` dans la formule
 * ajoutez le champ "Unité"
 * ajoutez un espace avec le prochain champ en ajoutant `&amp; " " &amp;` dans la formule
-* ajoutez le champ "Ingrédient"
+* ajoutez le champ "Ingrédients"
 
 ???
 
-Menu de la semaine ne fonctionne pas, il ne propose pas la table "Menus" : à tester.
+{Quantité}&amp; " " &amp;{Unité}&amp; " " &amp;{Ingrédients}
 
 ---
 class: clear
 
 #### 7. Configurez la table "Ingrédients" avec les champs suivants : 
-- "Nom de l'ingrédient" de type `Texte sur une seule ligne`
-- "Photo" de type `Pièce jointe`
-- "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
-- "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine"
+* "Nom de l'ingrédient" de type `Texte sur une seule ligne`
+* "Quantité ingrédients" (déjà créé)
+* "Photo" de type `Pièce jointe`
+* "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
+* "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine ?"
 
---
+---
+class: clear
 
 #### 8. Remplissez les différentes tables en commençant par "Recettes". Pour chaque recette vous devrez compléter les tables "Ingrédients" et "Quantité ingrédients". Puis vous pourrez composer des "Menus".
 
@@ -236,14 +239,12 @@ Ce qui signifie :
 ---
 class: clear
 
-#### 9. Dans la table `Ingrédients` et dans la barre latérale `Vues`, créez une vue `Tableur` intitulée "Les ingrédients de la semaine" en n'affichant que les champs suivants (fonction &lt;svg viewBox="0 0 640 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M634 471L36 3.51A16 16 0 0 0 13.51 6l-10 12.49A16 16 0 0 0 6 41l598 467.49a16 16 0 0 0 22.49-2.49l10-12.49A16 16 0 0 0 634 471zM296.79 146.47l134.79 105.38C429.36 191.91 380.48 144 320 144a112.26 112.26 0 0 0-23.21 2.47zm46.42 219.07L208.42 260.16C210.65 320.09 259.53 368 320 368a113 113 0 0 0 23.21-2.46zM320 112c98.65 0 189.09 55 237.93 144a285.53 285.53 0 0 1-44 60.2l37.74 29.5a333.7 333.7 0 0 0 52.9-75.11 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64c-36.7 0-71.71 7-104.63 18.81l46.41 36.29c18.94-4.3 38.34-7.1 58.22-7.1zm0 288c-98.65 0-189.08-55-237.93-144a285.47 285.47 0 0 1 44.05-60.19l-37.74-29.5a333.6 333.6 0 0 0-52.89 75.1 32.35 32.35 0 0 0 0 29.19C89.72 376.41 197.08 448 320 448c36.7 0 71.71-7.05 104.63-18.81l-46.41-36.28C359.28 397.2 339.89 400 320 400z"&gt;&lt;/path&gt;&lt;/svg&gt; `Masquer le champ`), en filtrant uniquement les recettes actives et en groupant par "Où acheter ?"
+#### 9. Dans la table `Ingrédients` et dans la barre latérale `Vues`, créez une vue `Tableur` intitulée "Les ingrédients de la semaine" en n'affichant que les champs suivants (fonction &lt;svg viewBox="0 0 640 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M634 471L36 3.51A16 16 0 0 0 13.51 6l-10 12.49A16 16 0 0 0 6 41l598 467.49a16 16 0 0 0 22.49-2.49l10-12.49A16 16 0 0 0 634 471zM296.79 146.47l134.79 105.38C429.36 191.91 380.48 144 320 144a112.26 112.26 0 0 0-23.21 2.47zm46.42 219.07L208.42 260.16C210.65 320.09 259.53 368 320 368a113 113 0 0 0 23.21-2.46zM320 112c98.65 0 189.09 55 237.93 144a285.53 285.53 0 0 1-44 60.2l37.74 29.5a333.7 333.7 0 0 0 52.9-75.11 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64c-36.7 0-71.71 7-104.63 18.81l46.41 36.29c18.94-4.3 38.34-7.1 58.22-7.1zm0 288c-98.65 0-189.08-55-237.93-144a285.47 285.47 0 0 1 44.05-60.19l-37.74-29.5a333.6 333.6 0 0 0-52.89 75.1 32.35 32.35 0 0 0 0 29.19C89.72 376.41 197.08 448 320 448c36.7 0 71.71-7.05 104.63-18.81l-46.41-36.28C359.28 397.2 339.89 400 320 400z"&gt;&lt;/path&gt;&lt;/svg&gt; `Masquer le champ`), en filtrant uniquement les recettes de la semaine et en groupant par "Où acheter ?"
 &lt;br /&gt;
 
 .center[&lt;img src="img/Airtable.png" width="400"&gt;]
 
 ???
-
-NB Comme on n'avait pas les bons champs de type `Recherche` il n'y avait pas de champ à masque et il n'était pas possible de filtrer les recettes actives.
 
 Comment iriez-vous faire les courses ?
 
