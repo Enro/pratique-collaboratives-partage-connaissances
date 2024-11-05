@@ -41,6 +41,10 @@ class: clear
 
 Ils sont beaucoup plus puissants et performants sur les données tabulaires !
 
+???
+
+Qu'est-ce qiue vous connaissez ?
+
 ---
 class: clear
 
@@ -207,6 +211,10 @@ class: clear
 * "Où acheter ?" de type `Sélection unique` avec deux options : "marché" et "supermarché"
 * "Menu de la semaine ?" de type `Recherche` : choisir la table "Quantité ingrédients" et le champ "Menu de la semaine ?"
 
+???
+
+A améliorer : ajouter une diapo avec le schéma de la base
+
 ---
 class: clear
 
@@ -230,8 +238,6 @@ class: clear
 ???
 
 Comment iriez-vous faire les courses ?
-
-S'il reste du temps créer une vue Formulaire.
 
 ---
 class: clear
@@ -271,6 +277,8 @@ Par exemple :
 
 ???
 
+Optionnel, uniquement s'il reste beaucoup de temps.
+
 Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
 
 Cf. https://airtable.com/appB1cL7jM2YmlRcc/shrdAS7GZV8bYib12/tblERR1IoRz4ica5L et https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/
@@ -295,9 +303,14 @@ Qu'avez-vous aimé ?
 ---
 class: clear
 
-## Examen sur table 
+## Devoir sur table 
 
-Sans ordinateur et sans support, répondez au quiz en 15 minutes.
+Sans ordinateur et sans support, répondez au quiz en 15 minutes. En silence et sans regarder le travail du voisin.
+
+---
+class: clear
+
+## Corrigé
 
 ---
 class: clear 
@@ -316,11 +329,6 @@ Exemple : rédaction d'un document stratégique de type feuille de route, suivie
 ---
 class: clear
 
-
-
----
-class: clear
-
 ## Activité : feuille de route science ouverte de l'IRD
 
 #### 1. Retournez à l'accueil https://airtable.com et cliquez sur `r icons::fontawesome("plus")` `Créer` > `Démarrer de zéro` puis donnez à votre base le nom `IRD MonPrénom`
@@ -333,7 +341,11 @@ Supprimez les colonnes existantes.
 
 La feuille de route est disponible sur https://s.42l.fr/fdr_ird
 
-Vous devrez créer les bons champs pour stocker et organiser toute l'information de la feuille de route.
+Vous devrez créer les bons champs pour stocker et organiser toute l'information de la feuille de route (à partir de la page 3).
+
+???
+
+Réfléchissez à la structure de la feuille 
 
 ---
 class: clear
@@ -343,6 +355,8 @@ class: clear
 .center[![](img/Airtable_fdr_ird.png)]
 
 ???
+
+Table de 31 lignes (hors préambule)
 
 https://airtable.com/appxyZfJw3qzR7qVn/shrK75V6yGjtPD33t
 
@@ -359,6 +373,11 @@ class: clear
 <br />
 
 #### 5. Créez une autre vue pour n'afficher que les objectifs de la thématique 2
+
+???
+
+Comment s'y prendrait-on pour afficher les items dans l'ordre du PDF, si je les avais renseignés dans le désordre ? Ajouter une colonne rang, comme dans mon expérience d'avoir construit cette table chez Datactivist.
+
 
 ---
 class: clear
